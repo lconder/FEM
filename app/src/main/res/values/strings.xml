@@ -3,5 +3,7 @@
     <string name="auth_failed">Error al ingresar</string>
     <string name="enter_valid_email">Ingresa un correo válido</string>
     <string name="enter_valid_password">Ingresa una contraseña válida</string>
+    <string name="general_error">Ha ocurrido un error</string>
     <string name="password_length">El password debe tener al menos 6 caracteres</string>
+    <string name="reset_password_successfully">Te hemos enviado un correo.</string>
 </resources>

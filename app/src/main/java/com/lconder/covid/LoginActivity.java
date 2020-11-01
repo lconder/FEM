@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText inputEmail, inputPassword;
-    private TextView btnSignUp;
+    private TextView btnSignUp, btnReset;
     private FirebaseAuth auth;
     private ProgressBar progressBar;
     private Button btnLogin;
@@ -53,9 +53,13 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
     }
 
+    public void loadResetView(View v) {
+        startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
+    }
+
     public void login(View view) {
         String email = inputEmail.getText().toString();
-        final String password = inputPassword.getText().toString();
+        String password = inputPassword.getText().toString();
         Validator validator = new Validator();
 
         if (TextUtils.isEmpty(email) || !validator.validateEmail(email)) {
