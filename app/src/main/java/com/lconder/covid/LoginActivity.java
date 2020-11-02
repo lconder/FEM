@@ -3,6 +3,7 @@ package com.lconder.covid;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -86,6 +87,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         progressBar.setVisibility(View.GONE);
                         if (!task.isSuccessful()) {
+                            Log.i("ERROR_LOGIN", String.valueOf(task.getException()));
                             Toast.makeText(LoginActivity.this, getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
                         } else {
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);

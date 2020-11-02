@@ -36,7 +36,10 @@ public abstract class AppDatabase extends RoomDatabase {
                                     databaseWriteExecutor.execute(new Runnable() {
                                         @Override
                                         public void run() {
-                                            CountryData.populateCountries();
+                                            getDatabase(context)
+                                                    .countryDAO()
+                                                    .insertAll(CountryData.populateCountries());
+
                                         }
                                     });
                                 }

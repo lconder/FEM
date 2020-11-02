@@ -10,7 +10,7 @@ import java.util.List;
 
 @Dao
 public interface CountryDAO {
-    @Query("SELECT * FROM Country")
+    @Query("SELECT * FROM Country ORDER BY es_name")
     LiveData<List<Country>> getAll();
 
     @Query("SELECT * FROM Country WHERE uid IN (:countriesIds)")
@@ -23,7 +23,7 @@ public interface CountryDAO {
     void insert(Country country);
 
     @Insert
-    void insertAll(Country... country);
+    void insertAll(Country[] country);
 
     @Delete
     void delete(Country country);
