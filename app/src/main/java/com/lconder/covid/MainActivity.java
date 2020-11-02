@@ -10,11 +10,13 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.lconder.covid.models.AppDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authListener;
+    AppDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

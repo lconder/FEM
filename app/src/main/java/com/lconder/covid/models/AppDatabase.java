@@ -2,9 +2,11 @@ package com.lconder.covid.models;
 
 import android.content.Context;
 
+import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -27,6 +29,18 @@ public abstract class AppDatabase extends RoomDatabase {
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
                             AppDatabase.class,
                             "my_database")
+                            .addCallback(new Callback() {
+                                @Override
+                                public void onCreate(@NonNull SupportSQLiteDatabase db) {
+                                    super.onCreate(db);
+                                    databaseWriteExecutor.execute(new Runnable() {
+                                        @Override
+                                        public void run() {
+                                            CountryData.populateCountries();
+                                        }
+                                    });
+                                }
+                            })
                             .build();
                 }
             }
