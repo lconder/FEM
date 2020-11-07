@@ -30,8 +30,6 @@ public class CountryData {
 
             JSONObject object = new JSONObject(json);
 
-            Log.i("Response", String.valueOf(object.getJSONArray("countries")));
-
             List<Country> countries = new ArrayList<>();
             JSONArray countriesJson = object.getJSONArray("countries");
 

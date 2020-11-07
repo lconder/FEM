@@ -13,6 +13,9 @@ public interface CountryDAO {
     @Query("SELECT * FROM Country ORDER BY es_name")
     LiveData<List<Country>> getAll();
 
+    @Query("SELECT * FROM Country WHERE isFavorite=1 ORDER BY es_name")
+    LiveData<List<Country>> getFavorites();
+
     @Query("SELECT * FROM Country WHERE uid IN (:countriesIds)")
     LiveData<List<Country>> loadAllByIds(int[] countriesIds);
 

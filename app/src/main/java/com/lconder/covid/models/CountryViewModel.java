@@ -12,14 +12,18 @@ public class CountryViewModel extends AndroidViewModel {
 
     private CountryRepository countryRepository;
     private LiveData<List<Country>> mAllCountries;
+    private LiveData<List<Country>> mAllFavorites;
 
     public CountryViewModel(@NonNull Application application) {
         super(application);
         countryRepository = new CountryRepository(application);
         mAllCountries = countryRepository.getAllCountries();
+        mAllFavorites = countryRepository.getFavorites();
     }
 
     public LiveData<List<Country>> getAllCountries() { return mAllCountries; }
+
+    public LiveData<List<Country>> getFavorites() { return mAllFavorites; }
 
 
     public void insert(Country country) { countryRepository.insert(country); }

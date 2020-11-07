@@ -14,15 +14,21 @@ public class CountryRepository {
     private CountryDAO countryDAO;
 
     private LiveData<List<Country>> mAllCountries;
+    private LiveData<List<Country>> mAllFavorites;
 
     CountryRepository(Application application) {
         AppDatabase db = AppDatabase.getDatabase(application);
         countryDAO = db.countryDAO();
         mAllCountries = countryDAO.getAll();
+        mAllFavorites = countryDAO.getFavorites();
     }
 
     LiveData<List<Country>>  getAllCountries() {
         return mAllCountries;
+    }
+
+    LiveData<List<Country>>  getFavorites() {
+        return mAllFavorites;
     }
 
     void insert(final Country country) {

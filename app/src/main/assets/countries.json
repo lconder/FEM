@@ -5,7 +5,7 @@
             "es_name": "Afghanistan",
             "code": "AF",
             "flag": "https://www.countryflags.io/AF/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AF.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AF.jpg",
             "latitude": "33.93911",
             "longitude": "67.709953",
             "isFavorite": false
@@ -15,7 +15,7 @@
             "es_name": "Albania",
             "code": "AL",
             "flag": "https://www.countryflags.io/AL/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AL.jpg",
             "latitude": "41.153332",
             "longitude": "20.168331",
             "isFavorite": false
@@ -25,7 +25,7 @@
             "es_name": "Algeria",
             "code": "DZ",
             "flag": "https://www.countryflags.io/DZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/DZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DZ.jpg",
             "latitude": "28.033886",
             "longitude": "1.659626",
             "isFavorite": false
@@ -35,7 +35,7 @@
             "es_name": "Andorra",
             "code": "AD",
             "flag": "https://www.countryflags.io/AD/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AD.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AD.jpg",
             "latitude": "42.546245",
             "longitude": "1.601554",
             "isFavorite": false
@@ -45,7 +45,7 @@
             "es_name": "Angola",
             "code": "AO",
             "flag": "https://www.countryflags.io/AO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AO.jpg",
             "latitude": "-11.202692",
             "longitude": "17.873887",
             "isFavorite": false
@@ -55,7 +55,7 @@
             "es_name": "Antigua and Barbuda",
             "code": "AG",
             "flag": "https://www.countryflags.io/AG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AG.jpg",
             "latitude": "17.060816",
             "longitude": "-61.796428",
             "isFavorite": false
@@ -65,7 +65,7 @@
             "es_name": "Argentina",
             "code": "AR",
             "flag": "https://www.countryflags.io/AR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AR.jpg",
             "latitude": "-38.416097",
             "longitude": "-63.616672",
             "isFavorite": false
@@ -75,7 +75,7 @@
             "es_name": "Armenia",
             "code": "AM",
             "flag": "https://www.countryflags.io/AM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AM.jpg",
             "latitude": "40.069099",
             "longitude": "45.038189",
             "isFavorite": false
@@ -85,7 +85,7 @@
             "es_name": "Australia",
             "code": "AU",
             "flag": "https://www.countryflags.io/AU/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AU.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AU.jpg",
             "latitude": "-25.274398",
             "longitude": "133.775136",
             "isFavorite": false
@@ -95,7 +95,7 @@
             "es_name": "Austria",
             "code": "AT",
             "flag": "https://www.countryflags.io/AT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AT.jpg",
             "latitude": "47.516231",
             "longitude": "14.550072",
             "isFavorite": false
@@ -105,7 +105,7 @@
             "es_name": "Azerbaijan",
             "code": "AZ",
             "flag": "https://www.countryflags.io/AZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AZ.jpg",
             "latitude": "40.143105",
             "longitude": "47.576927",
             "isFavorite": false
@@ -115,7 +115,7 @@
             "es_name": "Bahamas",
             "code": "BS",
             "flag": "https://www.countryflags.io/BS/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BS.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BS.jpg",
             "latitude": "25.03428",
             "longitude": "-77.39628",
             "isFavorite": false
@@ -125,7 +125,7 @@
             "es_name": "Bahrain",
             "code": "BH",
             "flag": "https://www.countryflags.io/BH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BH.jpg",
             "latitude": "25.930414",
             "longitude": "50.637772",
             "isFavorite": false
@@ -135,7 +135,7 @@
             "es_name": "Bangladesh",
             "code": "BD",
             "flag": "https://www.countryflags.io/BD/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BD.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BD.jpg",
             "latitude": "23.684994",
             "longitude": "90.356331",
             "isFavorite": false
@@ -145,7 +145,7 @@
             "es_name": "Barbados",
             "code": "BB",
             "flag": "https://www.countryflags.io/BB/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BB.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BB.jpg",
             "latitude": "13.193887",
             "longitude": "-59.543198",
             "isFavorite": false
@@ -155,7 +155,7 @@
             "es_name": "Belarus",
             "code": "BY",
             "flag": "https://www.countryflags.io/BY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BY.jpg",
             "latitude": "53.709807",
             "longitude": "27.953389",
             "isFavorite": false
@@ -165,7 +165,7 @@
             "es_name": "Belgium",
             "code": "BE",
             "flag": "https://www.countryflags.io/BE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BE.jpg",
             "latitude": "50.503887",
             "longitude": "4.469936",
             "isFavorite": false
@@ -175,7 +175,7 @@
             "es_name": "Belize",
             "code": "BZ",
             "flag": "https://www.countryflags.io/BZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BZ.jpg",
             "latitude": "17.189877",
             "longitude": "-88.49765",
             "isFavorite": false
@@ -185,7 +185,7 @@
             "es_name": "Benin",
             "code": "BJ",
             "flag": "https://www.countryflags.io/BJ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BJ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BJ.jpg",
             "latitude": "9.30769",
             "longitude": "2.315834",
             "isFavorite": false
@@ -195,7 +195,7 @@
             "es_name": "Bhutan",
             "code": "BT",
             "flag": "https://www.countryflags.io/BT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BT.jpg",
             "latitude": "27.514162",
             "longitude": "90.433601",
             "isFavorite": false
@@ -205,7 +205,7 @@
             "es_name": "Bolivia",
             "code": "BO",
             "flag": "https://www.countryflags.io/BO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BO.jpg",
             "latitude": "-16.290154",
             "longitude": "-63.588653",
             "isFavorite": false
@@ -215,7 +215,7 @@
             "es_name": "Bosnia and Herzegovina",
             "code": "BA",
             "flag": "https://www.countryflags.io/BA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BA.jpg",
             "latitude": "43.915886",
             "longitude": "17.679076",
             "isFavorite": false
@@ -225,7 +225,7 @@
             "es_name": "Botswana",
             "code": "BW",
             "flag": "https://www.countryflags.io/BW/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BW.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BW.jpg",
             "latitude": "-22.328474",
             "longitude": "24.684866",
             "isFavorite": false
@@ -235,7 +235,7 @@
             "es_name": "Brazil",
             "code": "BR",
             "flag": "https://www.countryflags.io/BR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BR.jpg",
             "latitude": "-14.235004",
             "longitude": "-51.92528",
             "isFavorite": false
@@ -245,7 +245,7 @@
             "es_name": "Brunei Darussalam",
             "code": "BN",
             "flag": "https://www.countryflags.io/BN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BN.jpg",
             "latitude": "4.535277",
             "longitude": "114.727669",
             "isFavorite": false
@@ -255,7 +255,7 @@
             "es_name": "Bulgaria",
             "code": "BG",
             "flag": "https://www.countryflags.io/BG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BG.jpg",
             "latitude": "42.733883",
             "longitude": "25.48583",
             "isFavorite": false
@@ -265,7 +265,7 @@
             "es_name": "Burkina Faso",
             "code": "BF",
             "flag": "https://www.countryflags.io/BF/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BF.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BF.jpg",
             "latitude": "12.238333",
             "longitude": "-1.561593",
             "isFavorite": false
@@ -275,7 +275,7 @@
             "es_name": "Burundi",
             "code": "BI",
             "flag": "https://www.countryflags.io/BI/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/BI.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BI.jpg",
             "latitude": "-3.373056",
             "longitude": "29.918886",
             "isFavorite": false
@@ -285,7 +285,7 @@
             "es_name": "Cambodia",
             "code": "KH",
             "flag": "https://www.countryflags.io/KH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KH.jpg",
             "latitude": "12.565679",
             "longitude": "104.990963",
             "isFavorite": false
@@ -295,7 +295,7 @@
             "es_name": "Cameroon",
             "code": "CM",
             "flag": "https://www.countryflags.io/CM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CM.jpg",
             "latitude": "7.369722",
             "longitude": "12.354722",
             "isFavorite": false
@@ -305,7 +305,7 @@
             "es_name": "Canada",
             "code": "CA",
             "flag": "https://www.countryflags.io/CA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CA.jpg",
             "latitude": "56.130366",
             "longitude": "-106.346771",
             "isFavorite": false
@@ -315,7 +315,7 @@
             "es_name": "Cape Verde",
             "code": "CV",
             "flag": "https://www.countryflags.io/CV/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CV.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CV.jpg",
             "latitude": "16.002082",
             "longitude": "-24.013197",
             "isFavorite": false
@@ -325,7 +325,7 @@
             "es_name": "Central African Republic",
             "code": "CF",
             "flag": "https://www.countryflags.io/CF/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CF.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CF.jpg",
             "latitude": "6.611111",
             "longitude": "20.939444",
             "isFavorite": false
@@ -335,7 +335,7 @@
             "es_name": "Chad",
             "code": "TD",
             "flag": "https://www.countryflags.io/TD/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TD.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TD.jpg",
             "latitude": "15.454166",
             "longitude": "18.732207",
             "isFavorite": false
@@ -345,7 +345,7 @@
             "es_name": "Chile",
             "code": "CL",
             "flag": "https://www.countryflags.io/CL/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CL.jpg",
             "latitude": "-35.675147",
             "longitude": "-71.542969",
             "isFavorite": false
@@ -355,7 +355,7 @@
             "es_name": "China",
             "code": "CN",
             "flag": "https://www.countryflags.io/CN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CN.jpg",
             "latitude": "35.86166",
             "longitude": "104.195397",
             "isFavorite": false
@@ -365,7 +365,7 @@
             "es_name": "Colombia",
             "code": "CO",
             "flag": "https://www.countryflags.io/CO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CO.jpg",
             "latitude": "4.570868",
             "longitude": "-74.297333",
             "isFavorite": false
@@ -375,7 +375,7 @@
             "es_name": "Comoros",
             "code": "KM",
             "flag": "https://www.countryflags.io/KM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KM.jpg",
             "latitude": "-11.875001",
             "longitude": "43.872219",
             "isFavorite": false
@@ -385,7 +385,7 @@
             "es_name": "Congo (Brazzaville)",
             "code": "CG",
             "flag": "https://www.countryflags.io/CG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CG.jpg",
             "latitude": "-0.228021",
             "longitude": "15.827659",
             "isFavorite": false
@@ -395,7 +395,7 @@
             "es_name": "Congo (Kinshasa)",
             "code": "CD",
             "flag": "https://www.countryflags.io/CD/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CD.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CD.jpg",
             "latitude": "-4.038333",
             "longitude": "21.758664",
             "isFavorite": false
@@ -405,7 +405,7 @@
             "es_name": "Costa Rica",
             "code": "CR",
             "flag": "https://www.countryflags.io/CR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CR.jpg",
             "latitude": "9.748917",
             "longitude": "-83.753428",
             "isFavorite": false
@@ -415,7 +415,7 @@
             "es_name": "Croatia",
             "code": "HR",
             "flag": "https://www.countryflags.io/HR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/HR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/HR.jpg",
             "latitude": "45.1",
             "longitude": "15.2",
             "isFavorite": false
@@ -425,7 +425,7 @@
             "es_name": "Cuba",
             "code": "CU",
             "flag": "https://www.countryflags.io/CU/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CU.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CU.jpg",
             "latitude": "21.521757",
             "longitude": "-77.781167",
             "isFavorite": false
@@ -435,7 +435,7 @@
             "es_name": "Cyprus",
             "code": "CY",
             "flag": "https://www.countryflags.io/CY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CY.jpg",
             "latitude": "35.126413",
             "longitude": "33.429859",
             "isFavorite": false
@@ -445,7 +445,7 @@
             "es_name": "Czech Republic",
             "code": "CZ",
             "flag": "https://www.countryflags.io/CZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CZ.jpg",
             "latitude": "49.817492",
             "longitude": "15.472962",
             "isFavorite": false
@@ -455,7 +455,7 @@
             "es_name": "Côte d'Ivoire",
             "code": "CI",
             "flag": "https://www.countryflags.io/CI/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CI.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CI.jpg",
             "latitude": "7.539989",
             "longitude": "-5.54708",
             "isFavorite": false
@@ -465,7 +465,7 @@
             "es_name": "Denmark",
             "code": "DK",
             "flag": "https://www.countryflags.io/DK/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/DK.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DK.jpg",
             "latitude": "56.26392",
             "longitude": "9.501785",
             "isFavorite": false
@@ -475,7 +475,7 @@
             "es_name": "Djibouti",
             "code": "DJ",
             "flag": "https://www.countryflags.io/DJ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/DJ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DJ.jpg",
             "latitude": "11.825138",
             "longitude": "42.590275",
             "isFavorite": false
@@ -485,7 +485,7 @@
             "es_name": "Dominica",
             "code": "DM",
             "flag": "https://www.countryflags.io/DM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/DM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DM.jpg",
             "latitude": "15.414999",
             "longitude": "-61.370976",
             "isFavorite": false
@@ -495,7 +495,7 @@
             "es_name": "Dominican Republic",
             "code": "DO",
             "flag": "https://www.countryflags.io/DO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/DO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DO.jpg",
             "latitude": "18.735693",
             "longitude": "-70.162651",
             "isFavorite": false
@@ -505,7 +505,7 @@
             "es_name": "Ecuador",
             "code": "EC",
             "flag": "https://www.countryflags.io/EC/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/EC.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/EC.jpg",
             "latitude": "-1.831239",
             "longitude": "-78.183406",
             "isFavorite": false
@@ -515,7 +515,7 @@
             "es_name": "Egypt",
             "code": "EG",
             "flag": "https://www.countryflags.io/EG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/EG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/EG.jpg",
             "latitude": "26.820553",
             "longitude": "30.802498",
             "isFavorite": false
@@ -525,7 +525,7 @@
             "es_name": "El Salvador",
             "code": "SV",
             "flag": "https://www.countryflags.io/SV/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SV.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SV.jpg",
             "latitude": "13.794185",
             "longitude": "-88.89653",
             "isFavorite": false
@@ -535,7 +535,7 @@
             "es_name": "Equatorial Guinea",
             "code": "GQ",
             "flag": "https://www.countryflags.io/GQ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GQ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GQ.jpg",
             "latitude": "1.650801",
             "longitude": "10.267895",
             "isFavorite": false
@@ -545,7 +545,7 @@
             "es_name": "Eritrea",
             "code": "ER",
             "flag": "https://www.countryflags.io/ER/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ER.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ER.jpg",
             "latitude": "15.179384",
             "longitude": "39.782334",
             "isFavorite": false
@@ -555,7 +555,7 @@
             "es_name": "Estonia",
             "code": "EE",
             "flag": "https://www.countryflags.io/EE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/EE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/EE.jpg",
             "latitude": "58.595272",
             "longitude": "25.013607",
             "isFavorite": false
@@ -565,7 +565,7 @@
             "es_name": "Ethiopia",
             "code": "ET",
             "flag": "https://www.countryflags.io/ET/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ET.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ET.jpg",
             "latitude": "9.145",
             "longitude": "40.489673",
             "isFavorite": false
@@ -575,7 +575,7 @@
             "es_name": "Fiji",
             "code": "FJ",
             "flag": "https://www.countryflags.io/FJ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/FJ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/FJ.jpg",
             "latitude": "-16.578193",
             "longitude": "179.414413",
             "isFavorite": false
@@ -585,7 +585,7 @@
             "es_name": "Finland",
             "code": "FI",
             "flag": "https://www.countryflags.io/FI/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/FI.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/FI.jpg",
             "latitude": "61.92411",
             "longitude": "25.748151",
             "isFavorite": false
@@ -595,7 +595,7 @@
             "es_name": "France",
             "code": "FR",
             "flag": "https://www.countryflags.io/FR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/FR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/FR.jpg",
             "latitude": "46.227638",
             "longitude": "2.213749",
             "isFavorite": false
@@ -605,7 +605,7 @@
             "es_name": "Gabon",
             "code": "GA",
             "flag": "https://www.countryflags.io/GA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GA.jpg",
             "latitude": "-0.803689",
             "longitude": "11.609444",
             "isFavorite": false
@@ -615,7 +615,7 @@
             "es_name": "Gambia",
             "code": "GM",
             "flag": "https://www.countryflags.io/GM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GM.jpg",
             "latitude": "13.443182",
             "longitude": "-15.310139",
             "isFavorite": false
@@ -625,7 +625,7 @@
             "es_name": "Georgia",
             "code": "GE",
             "flag": "https://www.countryflags.io/GE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GE.jpg",
             "latitude": "42.315407",
             "longitude": "43.356892",
             "isFavorite": false
@@ -635,7 +635,7 @@
             "es_name": "Germany",
             "code": "DE",
             "flag": "https://www.countryflags.io/DE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/DE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DE.jpg",
             "latitude": "51.165691",
             "longitude": "10.451526",
             "isFavorite": false
@@ -645,7 +645,7 @@
             "es_name": "Ghana",
             "code": "GH",
             "flag": "https://www.countryflags.io/GH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GH.jpg",
             "latitude": "7.946527",
             "longitude": "-1.023194",
             "isFavorite": false
@@ -655,7 +655,7 @@
             "es_name": "Greece",
             "code": "GR",
             "flag": "https://www.countryflags.io/GR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GR.jpg",
             "latitude": "39.074208",
             "longitude": "21.824312",
             "isFavorite": false
@@ -665,7 +665,7 @@
             "es_name": "Grenada",
             "code": "GD",
             "flag": "https://www.countryflags.io/GD/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GD.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GD.jpg",
             "latitude": "12.262776",
             "longitude": "-61.604171",
             "isFavorite": false
@@ -675,7 +675,7 @@
             "es_name": "Guatemala",
             "code": "GT",
             "flag": "https://www.countryflags.io/GT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GT.jpg",
             "latitude": "15.783471",
             "longitude": "-90.230759",
             "isFavorite": false
@@ -685,7 +685,7 @@
             "es_name": "Guinea",
             "code": "GN",
             "flag": "https://www.countryflags.io/GN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GN.jpg",
             "latitude": "9.945587",
             "longitude": "-9.696645",
             "isFavorite": false
@@ -695,7 +695,7 @@
             "es_name": "Guinea-Bissau",
             "code": "GW",
             "flag": "https://www.countryflags.io/GW/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GW.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GW.jpg",
             "latitude": "11.803749",
             "longitude": "-15.180413",
             "isFavorite": false
@@ -705,7 +705,7 @@
             "es_name": "Guyana",
             "code": "GY",
             "flag": "https://www.countryflags.io/GY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GY.jpg",
             "latitude": "4.860416",
             "longitude": "-58.93018",
             "isFavorite": false
@@ -715,7 +715,7 @@
             "es_name": "Haiti",
             "code": "HT",
             "flag": "https://www.countryflags.io/HT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/HT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/HT.jpg",
             "latitude": "18.971187",
             "longitude": "-72.285215",
             "isFavorite": false
@@ -725,7 +725,7 @@
             "es_name": "Holy See (Vatican City State)",
             "code": "VA",
             "flag": "https://www.countryflags.io/VA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/VA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VA.jpg",
             "latitude": "41.902916",
             "longitude": "12.453389",
             "isFavorite": false
@@ -735,7 +735,7 @@
             "es_name": "Honduras",
             "code": "HN",
             "flag": "https://www.countryflags.io/HN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/HN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/HN.jpg",
             "latitude": "15.199999",
             "longitude": "-86.241905",
             "isFavorite": false
@@ -745,7 +745,7 @@
             "es_name": "Hungary",
             "code": "HU",
             "flag": "https://www.countryflags.io/HU/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/HU.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/HU.jpg",
             "latitude": "47.162494",
             "longitude": "19.503304",
             "isFavorite": false
@@ -755,7 +755,7 @@
             "es_name": "Iceland",
             "code": "IS",
             "flag": "https://www.countryflags.io/IS/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/IS.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IS.jpg",
             "latitude": "64.963051",
             "longitude": "-19.020835",
             "isFavorite": false
@@ -765,7 +765,7 @@
             "es_name": "India",
             "code": "IN",
             "flag": "https://www.countryflags.io/IN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/IN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IN.jpg",
             "latitude": "20.593684",
             "longitude": "78.96288",
             "isFavorite": false
@@ -775,7 +775,7 @@
             "es_name": "Indonesia",
             "code": "ID",
             "flag": "https://www.countryflags.io/ID/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ID.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ID.jpg",
             "latitude": "-0.789275",
             "longitude": "113.921327",
             "isFavorite": false
@@ -785,7 +785,7 @@
             "es_name": "Iran, Islamic Republic of",
             "code": "IR",
             "flag": "https://www.countryflags.io/IR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/IR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IR.jpg",
             "latitude": "32.427908",
             "longitude": "53.688046",
             "isFavorite": false
@@ -795,7 +795,7 @@
             "es_name": "Iraq",
             "code": "IQ",
             "flag": "https://www.countryflags.io/IQ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/IQ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IQ.jpg",
             "latitude": "33.223191",
             "longitude": "43.679291",
             "isFavorite": false
@@ -805,7 +805,7 @@
             "es_name": "Ireland",
             "code": "IE",
             "flag": "https://www.countryflags.io/IE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/IE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IE.jpg",
             "latitude": "53.41291",
             "longitude": "-8.24389",
             "isFavorite": false
@@ -815,7 +815,7 @@
             "es_name": "Israel",
             "code": "IL",
             "flag": "https://www.countryflags.io/IL/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/IL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IL.jpg",
             "latitude": "31.046051",
             "longitude": "34.851612",
             "isFavorite": false
@@ -825,7 +825,7 @@
             "es_name": "Italy",
             "code": "IT",
             "flag": "https://www.countryflags.io/IT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/IT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IT.jpg",
             "latitude": "41.87194",
             "longitude": "12.56738",
             "isFavorite": false
@@ -835,7 +835,7 @@
             "es_name": "Jamaica",
             "code": "JM",
             "flag": "https://www.countryflags.io/JM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/JM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/JM.jpg",
             "latitude": "18.109581",
             "longitude": "-77.297508",
             "isFavorite": false
@@ -845,7 +845,7 @@
             "es_name": "Japan",
             "code": "JP",
             "flag": "https://www.countryflags.io/JP/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/JP.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/JP.jpg",
             "latitude": "36.204824",
             "longitude": "138.252924",
             "isFavorite": false
@@ -855,7 +855,7 @@
             "es_name": "Jordan",
             "code": "JO",
             "flag": "https://www.countryflags.io/JO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/JO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/JO.jpg",
             "latitude": "30.585164",
             "longitude": "36.238414",
             "isFavorite": false
@@ -865,7 +865,7 @@
             "es_name": "Kazakhstan",
             "code": "KZ",
             "flag": "https://www.countryflags.io/KZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KZ.jpg",
             "latitude": "48.019573",
             "longitude": "66.923684",
             "isFavorite": false
@@ -875,7 +875,7 @@
             "es_name": "Kenya",
             "code": "KE",
             "flag": "https://www.countryflags.io/KE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KE.jpg",
             "latitude": "-0.023559",
             "longitude": "37.906193",
             "isFavorite": false
@@ -885,7 +885,7 @@
             "es_name": "Korea (South)",
             "code": "KR",
             "flag": "https://www.countryflags.io/KR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KR.jpg",
             "latitude": "35.907757",
             "longitude": "127.766922",
             "isFavorite": false
@@ -895,7 +895,7 @@
             "es_name": "Kuwait",
             "code": "KW",
             "flag": "https://www.countryflags.io/KW/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KW.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KW.jpg",
             "latitude": "29.31166",
             "longitude": "47.481766",
             "isFavorite": false
@@ -905,7 +905,7 @@
             "es_name": "Kyrgyzstan",
             "code": "KG",
             "flag": "https://www.countryflags.io/KG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KG.jpg",
             "latitude": "41.20438",
             "longitude": "74.766098",
             "isFavorite": false
@@ -915,7 +915,7 @@
             "es_name": "Lao PDR",
             "code": "LA",
             "flag": "https://www.countryflags.io/LA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LA.jpg",
             "latitude": "19.85627",
             "longitude": "102.495496",
             "isFavorite": false
@@ -925,7 +925,7 @@
             "es_name": "Latvia",
             "code": "LV",
             "flag": "https://www.countryflags.io/LV/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LV.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LV.jpg",
             "latitude": "56.879635",
             "longitude": "24.603189",
             "isFavorite": false
@@ -935,7 +935,7 @@
             "es_name": "Lebanon",
             "code": "LB",
             "flag": "https://www.countryflags.io/LB/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LB.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LB.jpg",
             "latitude": "33.854721",
             "longitude": "35.862285",
             "isFavorite": false
@@ -945,7 +945,7 @@
             "es_name": "Lesotho",
             "code": "LS",
             "flag": "https://www.countryflags.io/LS/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LS.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LS.jpg",
             "latitude": "-29.609988",
             "longitude": "28.233608",
             "isFavorite": false
@@ -955,7 +955,7 @@
             "es_name": "Liberia",
             "code": "LR",
             "flag": "https://www.countryflags.io/LR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LR.jpg",
             "latitude": "6.428055",
             "longitude": "-9.429499",
             "isFavorite": false
@@ -965,7 +965,7 @@
             "es_name": "Libya",
             "code": "LY",
             "flag": "https://www.countryflags.io/LY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LY.jpg",
             "latitude": "26.3351",
             "longitude": "17.228331",
             "isFavorite": false
@@ -975,7 +975,7 @@
             "es_name": "Liechtenstein",
             "code": "LI",
             "flag": "https://www.countryflags.io/LI/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LI.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LI.jpg",
             "latitude": "47.166",
             "longitude": "9.555373",
             "isFavorite": false
@@ -985,7 +985,7 @@
             "es_name": "Lithuania",
             "code": "LT",
             "flag": "https://www.countryflags.io/LT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LT.jpg",
             "latitude": "55.169438",
             "longitude": "23.881275",
             "isFavorite": false
@@ -995,7 +995,7 @@
             "es_name": "Luxembourg",
             "code": "LU",
             "flag": "https://www.countryflags.io/LU/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LU.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LU.jpg",
             "latitude": "49.815273",
             "longitude": "6.129583",
             "isFavorite": false
@@ -1005,7 +1005,7 @@
             "es_name": "Macao, SAR China",
             "code": "MO",
             "flag": "https://www.countryflags.io/MO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MO.jpg",
             "latitude": "22.198745",
             "longitude": "113.543873",
             "isFavorite": false
@@ -1015,7 +1015,7 @@
             "es_name": "Macedonia, Republic of",
             "code": "MK",
             "flag": "https://www.countryflags.io/MK/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MK.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MK.jpg",
             "latitude": "41.608635",
             "longitude": "21.745275",
             "isFavorite": false
@@ -1025,7 +1025,7 @@
             "es_name": "Madagascar",
             "code": "MG",
             "flag": "https://www.countryflags.io/MG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MG.jpg",
             "latitude": "-18.766947",
             "longitude": "46.869107",
             "isFavorite": false
@@ -1035,7 +1035,7 @@
             "es_name": "Malawi",
             "code": "MW",
             "flag": "https://www.countryflags.io/MW/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MW.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MW.jpg",
             "latitude": "-13.254308",
             "longitude": "34.301525",
             "isFavorite": false
@@ -1045,7 +1045,7 @@
             "es_name": "Malaysia",
             "code": "MY",
             "flag": "https://www.countryflags.io/MY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MY.jpg",
             "latitude": "4.210484",
             "longitude": "101.975766",
             "isFavorite": false
@@ -1055,7 +1055,7 @@
             "es_name": "Maldives",
             "code": "MV",
             "flag": "https://www.countryflags.io/MV/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MV.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MV.jpg",
             "latitude": "3.202778",
             "longitude": "73.22068",
             "isFavorite": false
@@ -1065,7 +1065,7 @@
             "es_name": "Mali",
             "code": "ML",
             "flag": "https://www.countryflags.io/ML/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ML.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ML.jpg",
             "latitude": "17.570692",
             "longitude": "-3.996166",
             "isFavorite": false
@@ -1075,7 +1075,7 @@
             "es_name": "Malta",
             "code": "MT",
             "flag": "https://www.countryflags.io/MT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MT.jpg",
             "latitude": "35.937496",
             "longitude": "14.375416",
             "isFavorite": false
@@ -1085,7 +1085,7 @@
             "es_name": "Marshall Islands",
             "code": "MH",
             "flag": "https://www.countryflags.io/MH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MH.jpg",
             "latitude": "7.131474",
             "longitude": "171.184478",
             "isFavorite": false
@@ -1095,7 +1095,7 @@
             "es_name": "Mauritania",
             "code": "MR",
             "flag": "https://www.countryflags.io/MR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MR.jpg",
             "latitude": "21.00789",
             "longitude": "-10.940835",
             "isFavorite": false
@@ -1105,7 +1105,7 @@
             "es_name": "Mauritius",
             "code": "MU",
             "flag": "https://www.countryflags.io/MU/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MU.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MU.jpg",
             "latitude": "-20.348404",
             "longitude": "57.552152",
             "isFavorite": false
@@ -1115,7 +1115,7 @@
             "es_name": "Mexico",
             "code": "MX",
             "flag": "https://www.countryflags.io/MX/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MX.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MX.jpg",
             "latitude": "23.634501",
             "longitude": "-102.552784",
             "isFavorite": false
@@ -1125,7 +1125,7 @@
             "es_name": "Moldova",
             "code": "MD",
             "flag": "https://www.countryflags.io/MD/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MD.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MD.jpg",
             "latitude": "47.411631",
             "longitude": "28.369885",
             "isFavorite": false
@@ -1135,7 +1135,7 @@
             "es_name": "Monaco",
             "code": "MC",
             "flag": "https://www.countryflags.io/MC/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MC.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MC.jpg",
             "latitude": "43.750298",
             "longitude": "7.412841",
             "isFavorite": false
@@ -1145,7 +1145,7 @@
             "es_name": "Mongolia",
             "code": "MN",
             "flag": "https://www.countryflags.io/MN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MN.jpg",
             "latitude": "46.862496",
             "longitude": "103.846656",
             "isFavorite": false
@@ -1155,7 +1155,7 @@
             "es_name": "Montenegro",
             "code": "ME",
             "flag": "https://www.countryflags.io/ME/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ME.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ME.jpg",
             "latitude": "42.708678",
             "longitude": "19.37439",
             "isFavorite": false
@@ -1165,7 +1165,7 @@
             "es_name": "Morocco",
             "code": "MA",
             "flag": "https://www.countryflags.io/MA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MA.jpg",
             "latitude": "31.791702",
             "longitude": "-7.09262",
             "isFavorite": false
@@ -1175,7 +1175,7 @@
             "es_name": "Mozambique",
             "code": "MZ",
             "flag": "https://www.countryflags.io/MZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MZ.jpg",
             "latitude": "-18.665695",
             "longitude": "35.529562",
             "isFavorite": false
@@ -1185,7 +1185,7 @@
             "es_name": "Myanmar",
             "code": "MM",
             "flag": "https://www.countryflags.io/MM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/MM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MM.jpg",
             "latitude": "21.913965",
             "longitude": "95.956223",
             "isFavorite": false
@@ -1195,7 +1195,7 @@
             "es_name": "Namibia",
             "code": "NA",
             "flag": "https://www.countryflags.io/NA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NA.jpg",
             "latitude": "-22.95764",
             "longitude": "18.49041",
             "isFavorite": false
@@ -1205,7 +1205,7 @@
             "es_name": "Nepal",
             "code": "NP",
             "flag": "https://www.countryflags.io/NP/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NP.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NP.jpg",
             "latitude": "28.394857",
             "longitude": "84.124008",
             "isFavorite": false
@@ -1215,7 +1215,7 @@
             "es_name": "Netherlands",
             "code": "NL",
             "flag": "https://www.countryflags.io/NL/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NL.jpg",
             "latitude": "52.132633",
             "longitude": "5.291266",
             "isFavorite": false
@@ -1225,7 +1225,7 @@
             "es_name": "New Zealand",
             "code": "NZ",
             "flag": "https://www.countryflags.io/NZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NZ.jpg",
             "latitude": "-40.900557",
             "longitude": "174.885971",
             "isFavorite": false
@@ -1235,7 +1235,7 @@
             "es_name": "Nicaragua",
             "code": "NI",
             "flag": "https://www.countryflags.io/NI/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NI.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NI.jpg",
             "latitude": "12.865416",
             "longitude": "-85.207229",
             "isFavorite": false
@@ -1245,7 +1245,7 @@
             "es_name": "Niger",
             "code": "NE",
             "flag": "https://www.countryflags.io/NE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NE.jpg",
             "latitude": "17.607789",
             "longitude": "8.081666",
             "isFavorite": false
@@ -1255,7 +1255,7 @@
             "es_name": "Nigeria",
             "code": "NG",
             "flag": "https://www.countryflags.io/NG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NG.jpg",
             "latitude": "9.081999",
             "longitude": "8.675277",
             "isFavorite": false
@@ -1265,7 +1265,7 @@
             "es_name": "Norway",
             "code": "NO",
             "flag": "https://www.countryflags.io/NO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/NO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NO.jpg",
             "latitude": "60.472024",
             "longitude": "8.468946",
             "isFavorite": false
@@ -1275,7 +1275,7 @@
             "es_name": "Oman",
             "code": "OM",
             "flag": "https://www.countryflags.io/OM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/OM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/OM.jpg",
             "latitude": "21.512583",
             "longitude": "55.923255",
             "isFavorite": false
@@ -1285,7 +1285,7 @@
             "es_name": "Pakistan",
             "code": "PK",
             "flag": "https://www.countryflags.io/PK/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PK.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PK.jpg",
             "latitude": "30.375321",
             "longitude": "69.345116",
             "isFavorite": false
@@ -1295,7 +1295,7 @@
             "es_name": "Palestinian Territory",
             "code": "PS",
             "flag": "https://www.countryflags.io/PS/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PS.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PS.jpg",
             "latitude": "31.952162",
             "longitude": "35.233154",
             "isFavorite": false
@@ -1305,7 +1305,7 @@
             "es_name": "Panama",
             "code": "PA",
             "flag": "https://www.countryflags.io/PA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PA.jpg",
             "latitude": "8.537981",
             "longitude": "-80.782127",
             "isFavorite": false
@@ -1315,7 +1315,7 @@
             "es_name": "Papua New Guinea",
             "code": "PG",
             "flag": "https://www.countryflags.io/PG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PG.jpg",
             "latitude": "-6.314993",
             "longitude": "143.95555",
             "isFavorite": false
@@ -1325,7 +1325,7 @@
             "es_name": "Paraguay",
             "code": "PY",
             "flag": "https://www.countryflags.io/PY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PY.jpg",
             "latitude": "-23.442503",
             "longitude": "-58.443832",
             "isFavorite": false
@@ -1335,7 +1335,7 @@
             "es_name": "Peru",
             "code": "PE",
             "flag": "https://www.countryflags.io/PE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PE.jpg",
             "latitude": "-9.189967",
             "longitude": "-75.015152",
             "isFavorite": false
@@ -1345,7 +1345,7 @@
             "es_name": "Philippines",
             "code": "PH",
             "flag": "https://www.countryflags.io/PH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PH.jpg",
             "latitude": "12.879721",
             "longitude": "121.774017",
             "isFavorite": false
@@ -1355,7 +1355,7 @@
             "es_name": "Poland",
             "code": "PL",
             "flag": "https://www.countryflags.io/PL/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PL.jpg",
             "latitude": "51.919438",
             "longitude": "19.145136",
             "isFavorite": false
@@ -1365,7 +1365,7 @@
             "es_name": "Portugal",
             "code": "PT",
             "flag": "https://www.countryflags.io/PT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/PT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PT.jpg",
             "latitude": "39.399872",
             "longitude": "-8.224454",
             "isFavorite": false
@@ -1375,7 +1375,7 @@
             "es_name": "Qatar",
             "code": "QA",
             "flag": "https://www.countryflags.io/QA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/QA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/QA.jpg",
             "latitude": "25.354826",
             "longitude": "51.183884",
             "isFavorite": false
@@ -1385,7 +1385,7 @@
             "es_name": "Republic of Kosovo",
             "code": "XK",
             "flag": "https://www.countryflags.io/XK/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/XK.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/XK.jpg",
             "latitude": "42.602636",
             "longitude": "20.902977",
             "isFavorite": false
@@ -1395,7 +1395,7 @@
             "es_name": "Romania",
             "code": "RO",
             "flag": "https://www.countryflags.io/RO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/RO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RO.jpg",
             "latitude": "45.943161",
             "longitude": "24.96676",
             "isFavorite": false
@@ -1405,7 +1405,7 @@
             "es_name": "Russian Federation",
             "code": "RU",
             "flag": "https://www.countryflags.io/RU/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/RU.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RU.jpg",
             "latitude": "61.52401",
             "longitude": "105.318756",
             "isFavorite": false
@@ -1415,7 +1415,7 @@
             "es_name": "Rwanda",
             "code": "RW",
             "flag": "https://www.countryflags.io/RW/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/RW.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RW.jpg",
             "latitude": "-1.940278",
             "longitude": "29.873888",
             "isFavorite": false
@@ -1425,7 +1425,7 @@
             "es_name": "Réunion",
             "code": "RE",
             "flag": "https://www.countryflags.io/RE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/RE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RE.jpg",
             "latitude": "-21.115141",
             "longitude": "55.536384",
             "isFavorite": false
@@ -1435,7 +1435,7 @@
             "es_name": "Saint Kitts and Nevis",
             "code": "KN",
             "flag": "https://www.countryflags.io/KN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/KN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KN.jpg",
             "latitude": "17.357822",
             "longitude": "-62.782998",
             "isFavorite": false
@@ -1445,7 +1445,7 @@
             "es_name": "Saint Lucia",
             "code": "LC",
             "flag": "https://www.countryflags.io/LC/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LC.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LC.jpg",
             "latitude": "13.909444",
             "longitude": "-60.978893",
             "isFavorite": false
@@ -1455,7 +1455,7 @@
             "es_name": "Saint Vincent and Grenadines",
             "code": "VC",
             "flag": "https://www.countryflags.io/VC/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/VC.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VC.jpg",
             "latitude": "12.984305",
             "longitude": "-61.287228",
             "isFavorite": false
@@ -1465,7 +1465,7 @@
             "es_name": "San Marino",
             "code": "SM",
             "flag": "https://www.countryflags.io/SM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SM.jpg",
             "latitude": "43.94236",
             "longitude": "12.457777",
             "isFavorite": false
@@ -1475,7 +1475,7 @@
             "es_name": "Sao Tome and Principe",
             "code": "ST",
             "flag": "https://www.countryflags.io/ST/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ST.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ST.jpg",
             "latitude": "0.18636",
             "longitude": "6.613081",
             "isFavorite": false
@@ -1485,7 +1485,7 @@
             "es_name": "Saudi Arabia",
             "code": "SA",
             "flag": "https://www.countryflags.io/SA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SA.jpg",
             "latitude": "23.885942",
             "longitude": "45.079162",
             "isFavorite": false
@@ -1495,7 +1495,7 @@
             "es_name": "Senegal",
             "code": "SN",
             "flag": "https://www.countryflags.io/SN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SN.jpg",
             "latitude": "14.497401",
             "longitude": "-14.452362",
             "isFavorite": false
@@ -1505,7 +1505,7 @@
             "es_name": "Serbia",
             "code": "RS",
             "flag": "https://www.countryflags.io/RS/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/RS.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RS.jpg",
             "latitude": "44.016521",
             "longitude": "21.005859",
             "isFavorite": false
@@ -1515,7 +1515,7 @@
             "es_name": "Seychelles",
             "code": "SC",
             "flag": "https://www.countryflags.io/SC/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SC.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SC.jpg",
             "latitude": "-4.679574",
             "longitude": "55.491977",
             "isFavorite": false
@@ -1525,7 +1525,7 @@
             "es_name": "Sierra Leone",
             "code": "SL",
             "flag": "https://www.countryflags.io/SL/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SL.jpg",
             "latitude": "8.460555",
             "longitude": "-11.779889",
             "isFavorite": false
@@ -1535,7 +1535,7 @@
             "es_name": "Singapore",
             "code": "SG",
             "flag": "https://www.countryflags.io/SG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SG.jpg",
             "latitude": "1.352083",
             "longitude": "103.819836",
             "isFavorite": false
@@ -1545,7 +1545,7 @@
             "es_name": "Slovakia",
             "code": "SK",
             "flag": "https://www.countryflags.io/SK/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SK.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SK.jpg",
             "latitude": "48.669026",
             "longitude": "19.699024",
             "isFavorite": false
@@ -1555,7 +1555,7 @@
             "es_name": "Slovenia",
             "code": "SI",
             "flag": "https://www.countryflags.io/SI/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SI.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SI.jpg",
             "latitude": "46.151241",
             "longitude": "14.995463",
             "isFavorite": false
@@ -1565,7 +1565,7 @@
             "es_name": "Solomon Islands",
             "code": "SB",
             "flag": "https://www.countryflags.io/SB/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SB.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SB.jpg",
             "latitude": "-9.64571",
             "longitude": "160.156194",
             "isFavorite": false
@@ -1575,7 +1575,7 @@
             "es_name": "Somalia",
             "code": "SO",
             "flag": "https://www.countryflags.io/SO/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SO.jpg",
             "latitude": "5.152149",
             "longitude": "46.199616",
             "isFavorite": false
@@ -1585,7 +1585,7 @@
             "es_name": "South Africa",
             "code": "ZA",
             "flag": "https://www.countryflags.io/ZA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ZA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ZA.jpg",
             "latitude": "-30.559482",
             "longitude": "22.937506",
             "isFavorite": false
@@ -1595,7 +1595,7 @@
             "es_name": "South Sudan",
             "code": "SS",
             "flag": "https://www.countryflags.io/SS/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SS.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SS.jpg",
             "latitude": 0,
             "longitude": 0,
             "isFavorite": false
@@ -1605,7 +1605,7 @@
             "es_name": "Spain",
             "code": "ES",
             "flag": "https://www.countryflags.io/ES/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ES.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ES.jpg",
             "latitude": "40.463667",
             "longitude": "-3.74922",
             "isFavorite": false
@@ -1615,7 +1615,7 @@
             "es_name": "Sri Lanka",
             "code": "LK",
             "flag": "https://www.countryflags.io/LK/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/LK.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LK.jpg",
             "latitude": "7.873054",
             "longitude": "80.771797",
             "isFavorite": false
@@ -1625,7 +1625,7 @@
             "es_name": "Sudan",
             "code": "SD",
             "flag": "https://www.countryflags.io/SD/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SD.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SD.jpg",
             "latitude": "12.862807",
             "longitude": "30.217636",
             "isFavorite": false
@@ -1635,7 +1635,7 @@
             "es_name": "Suriname",
             "code": "SR",
             "flag": "https://www.countryflags.io/SR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SR.jpg",
             "latitude": "3.919305",
             "longitude": "-56.027783",
             "isFavorite": false
@@ -1645,7 +1645,7 @@
             "es_name": "Swaziland",
             "code": "SZ",
             "flag": "https://www.countryflags.io/SZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SZ.jpg",
             "latitude": "-26.522503",
             "longitude": "31.465866",
             "isFavorite": false
@@ -1655,7 +1655,7 @@
             "es_name": "Sweden",
             "code": "SE",
             "flag": "https://www.countryflags.io/SE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SE.jpg",
             "latitude": "60.128161",
             "longitude": "18.643501",
             "isFavorite": false
@@ -1665,7 +1665,7 @@
             "es_name": "Switzerland",
             "code": "CH",
             "flag": "https://www.countryflags.io/CH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/CH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CH.jpg",
             "latitude": "46.818188",
             "longitude": "8.227512",
             "isFavorite": false
@@ -1675,7 +1675,7 @@
             "es_name": "Syrian Arab Republic (Syria)",
             "code": "SY",
             "flag": "https://www.countryflags.io/SY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/SY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SY.jpg",
             "latitude": "34.802075",
             "longitude": "38.996815",
             "isFavorite": false
@@ -1685,7 +1685,7 @@
             "es_name": "Taiwan, Republic of China",
             "code": "TW",
             "flag": "https://www.countryflags.io/TW/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TW.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TW.jpg",
             "latitude": "23.69781",
             "longitude": "120.960515",
             "isFavorite": false
@@ -1695,7 +1695,7 @@
             "es_name": "Tajikistan",
             "code": "TJ",
             "flag": "https://www.countryflags.io/TJ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TJ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TJ.jpg",
             "latitude": "38.861034",
             "longitude": "71.276093",
             "isFavorite": false
@@ -1705,7 +1705,7 @@
             "es_name": "Tanzania, United Republic of",
             "code": "TZ",
             "flag": "https://www.countryflags.io/TZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TZ.jpg",
             "latitude": "-6.369028",
             "longitude": "34.888822",
             "isFavorite": false
@@ -1715,7 +1715,7 @@
             "es_name": "Thailand",
             "code": "TH",
             "flag": "https://www.countryflags.io/TH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TH.jpg",
             "latitude": "15.870032",
             "longitude": "100.992541",
             "isFavorite": false
@@ -1725,7 +1725,7 @@
             "es_name": "Timor-Leste",
             "code": "TL",
             "flag": "https://www.countryflags.io/TL/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TL.jpg",
             "latitude": "-8.874217",
             "longitude": "125.727539",
             "isFavorite": false
@@ -1735,7 +1735,7 @@
             "es_name": "Togo",
             "code": "TG",
             "flag": "https://www.countryflags.io/TG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TG.jpg",
             "latitude": "8.619543",
             "longitude": "0.824782",
             "isFavorite": false
@@ -1745,7 +1745,7 @@
             "es_name": "Trinidad and Tobago",
             "code": "TT",
             "flag": "https://www.countryflags.io/TT/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TT.jpg",
             "latitude": "10.691803",
             "longitude": "-61.222503",
             "isFavorite": false
@@ -1755,7 +1755,7 @@
             "es_name": "Tunisia",
             "code": "TN",
             "flag": "https://www.countryflags.io/TN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TN.jpg",
             "latitude": "33.886917",
             "longitude": "9.537499",
             "isFavorite": false
@@ -1765,7 +1765,7 @@
             "es_name": "Turkey",
             "code": "TR",
             "flag": "https://www.countryflags.io/TR/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/TR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TR.jpg",
             "latitude": "38.963745",
             "longitude": "35.243322",
             "isFavorite": false
@@ -1775,7 +1775,7 @@
             "es_name": "Uganda",
             "code": "UG",
             "flag": "https://www.countryflags.io/UG/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/UG.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UG.jpg",
             "latitude": "1.373333",
             "longitude": "32.290275",
             "isFavorite": false
@@ -1785,7 +1785,7 @@
             "es_name": "Ukraine",
             "code": "UA",
             "flag": "https://www.countryflags.io/UA/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/UA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UA.jpg",
             "latitude": "48.379433",
             "longitude": "31.16558",
             "isFavorite": false
@@ -1795,7 +1795,7 @@
             "es_name": "United Arab Emirates",
             "code": "AE",
             "flag": "https://www.countryflags.io/AE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/AE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AE.jpg",
             "latitude": "23.424076",
             "longitude": "53.847818",
             "isFavorite": false
@@ -1805,7 +1805,7 @@
             "es_name": "United Kingdom",
             "code": "GB",
             "flag": "https://www.countryflags.io/GB/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/GB.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GB.jpg",
             "latitude": "55.378051",
             "longitude": "-3.435973",
             "isFavorite": false
@@ -1815,7 +1815,7 @@
             "es_name": "United States of America",
             "code": "US",
             "flag": "https://www.countryflags.io/US/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/US.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/US.jpg",
             "latitude": "37.09024",
             "longitude": "-95.712891",
             "isFavorite": false
@@ -1825,7 +1825,7 @@
             "es_name": "Uruguay",
             "code": "UY",
             "flag": "https://www.countryflags.io/UY/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/UY.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UY.jpg",
             "latitude": "-32.522779",
             "longitude": "-55.765835",
             "isFavorite": false
@@ -1835,7 +1835,7 @@
             "es_name": "Uzbekistan",
             "code": "UZ",
             "flag": "https://www.countryflags.io/UZ/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/UZ.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UZ.jpg",
             "latitude": "41.377491",
             "longitude": "64.585262",
             "isFavorite": false
@@ -1845,7 +1845,7 @@
             "es_name": "Venezuela (Bolivarian Republic)",
             "code": "VE",
             "flag": "https://www.countryflags.io/VE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/VE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VE.jpg",
             "latitude": "6.42375",
             "longitude": "-66.58973",
             "isFavorite": false
@@ -1855,7 +1855,7 @@
             "es_name": "Viet Nam",
             "code": "VN",
             "flag": "https://www.countryflags.io/VN/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/VN.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VN.jpg",
             "latitude": "14.058324",
             "longitude": "108.277199",
             "isFavorite": false
@@ -1865,7 +1865,7 @@
             "es_name": "Western Sahara",
             "code": "EH",
             "flag": "https://www.countryflags.io/EH/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/EH.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/EH.jpg",
             "latitude": "24.215527",
             "longitude": "-12.885834",
             "isFavorite": false
@@ -1875,7 +1875,7 @@
             "es_name": "Yemen",
             "code": "YE",
             "flag": "https://www.countryflags.io/YE/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/YE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/YE.jpg",
             "latitude": "15.552727",
             "longitude": "48.516388",
             "isFavorite": false
@@ -1885,7 +1885,7 @@
             "es_name": "Zambia",
             "code": "ZM",
             "flag": "https://www.countryflags.io/ZM/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ZM.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ZM.jpg",
             "latitude": "-13.133897",
             "longitude": "27.849332",
             "isFavorite": false
@@ -1895,10 +1895,11 @@
             "es_name": "Zimbabwe",
             "code": "ZW",
             "flag": "https://www.countryflags.io/ZW/flat/64.png",
-            "image": "https://res.cloudinary.com/lconder/image/upload/v1604318980/countries/ZW.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ZW.jpg",
             "latitude": "-19.015438",
             "longitude": "29.154857",
             "isFavorite": false
         }
-    ]
+    ],
+    "count": 190
 }
