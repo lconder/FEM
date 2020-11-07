@@ -1,16 +1,19 @@
 package com.lconder.covid.views;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.lconder.covid.CountryActivity;
 import com.lconder.covid.R;
 import com.lconder.covid.models.Country;
 import com.squareup.picasso.Picasso;
@@ -28,6 +31,15 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
             super(itemView);
             tvCountryName = itemView.findViewById(R.id.country_name);
             ivCountryImage = itemView.findViewById(R.id.country_image);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Context context = view.getContext();
+                    Intent intent = new Intent(context, CountryActivity.class);
+                    context.startActivity(intent);
+                }
+            });
         }
     }
 

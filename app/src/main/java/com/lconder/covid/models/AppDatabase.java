@@ -38,7 +38,7 @@ public abstract class AppDatabase extends RoomDatabase {
                                         public void run() {
                                             getDatabase(context)
                                                     .countryDAO()
-                                                    .insertAll(CountryData.populateCountries());
+                                                    .insertAll(CountryData.populateCountries(context));
 
                                         }
                                     });

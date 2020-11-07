@@ -24,6 +24,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".CountryActivity" />
     </application>
 
 </manifest>
