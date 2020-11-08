@@ -5,6 +5,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,9 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.lconder.covid.R;
 import com.lconder.covid.models.Country;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
-public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.CountryViewHolder> {
+public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.CountryViewHolder> implements Filterable {
 
     static class CountryViewHolder extends RecyclerView.ViewHolder {
 
@@ -29,6 +33,7 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
 
     private final LayoutInflater mInflater;
     private List<Country> mCountries;
+    private List<Country> mCountriesAll;
 
     public CountryListAdapter(Context context) {
         mInflater = LayoutInflater.from(context);
@@ -52,6 +57,7 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
     public void setCountries(List<Country> countries) {
         Log.i("COUNTRIES", String.valueOf(mCountries));
         mCountries = countries;
+        mCountriesAll = new ArrayList<>(countries);
         notifyDataSetChanged();
     }
 
@@ -63,5 +69,38 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
         return 0;
     }
 
+    @Override
+    public Filter getFilter() {
+        return filter;
+    }
+
+    Filter filter = new Filter() {
+        @Override
+        protected FilterResults performFiltering(CharSequence charSequence) {
+
+            List<Country> filteredList = new ArrayList<>();
+
+            if(charSequence.toString().isEmpty()) {
+                filteredList.addAll(mCountriesAll);
+            } else {
+                for (Country country: mCountriesAll) {
+                    if(country.getEs_name().toLowerCase().contains(charSequence.toString().toLowerCase())) {
+                        filteredList.add(country);
+                    }
+                }
+            }
+
+            FilterResults filterResults = new FilterResults();
+            filterResults.values = filteredList;
+            return filterResults;
+        }
+
+        @Override
+        protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
+            mCountries.clear();
+            mCountries.addAll((Collection<? extends Country>) filterResults.values);
+            notifyDataSetChanged();
+        }
+    };
 
 }

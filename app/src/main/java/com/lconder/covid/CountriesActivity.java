@@ -1,13 +1,15 @@
 package com.lconder.covid;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.lconder.covid.models.Country;
 import com.lconder.covid.models.CountryViewModel;
@@ -19,6 +21,7 @@ import java.util.List;
 public class CountriesActivity extends AppCompatActivity {
 
     private CountryViewModel countryViewModel;
+    private CountryListAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +29,7 @@ public class CountriesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_countries);
 
         RecyclerView recyclerView = findViewById(R.id.rvCountries);
-        final CountryListAdapter adapter = new CountryListAdapter(this);
+        adapter = new CountryListAdapter(this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -38,5 +41,25 @@ public class CountriesActivity extends AppCompatActivity {
                 adapter.setCountries(countries);
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.countries_menu, menu);
+        MenuItem item = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) item.getActionView();
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                adapter.getFilter().filter(s);
+                return false;
+            }
+        });
+        return super.onCreateOptionsMenu(menu);
     }
 }
