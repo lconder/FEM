@@ -25,6 +25,7 @@ public class CountryViewModel extends AndroidViewModel {
 
     public LiveData<List<Country>> getFavorites() { return mAllFavorites; }
 
+    public void favorite(String code, boolean flag) { countryRepository.favorite(code, flag); }
 
     public void insert(Country country) { countryRepository.insert(country); }
 }

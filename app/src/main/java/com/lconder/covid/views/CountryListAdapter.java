@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.lconder.covid.R;
 import com.lconder.covid.models.Country;
+import com.lconder.covid.models.RecyclerViewClickListener;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -21,29 +22,39 @@ import java.util.List;
 
 public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.CountryViewHolder> implements Filterable {
 
-    static class CountryViewHolder extends RecyclerView.ViewHolder {
+    static class CountryViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         private final TextView tvCountryName;
+        RecyclerViewClickListener recyclerViewClickListener;
 
-        public CountryViewHolder(@NonNull View itemView) {
+        public CountryViewHolder(@NonNull View itemView, RecyclerViewClickListener recyclerViewClickListener) {
             super(itemView);
             tvCountryName = itemView.findViewById(R.id.country_name);
+            this.recyclerViewClickListener = recyclerViewClickListener;
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            recyclerViewClickListener.recyclerViewListClicked(getAdapterPosition());
         }
     }
 
     private final LayoutInflater mInflater;
     private List<Country> mCountries;
     private List<Country> mCountriesAll;
+    private RecyclerViewClickListener mRecyclerViewClickListener;
 
-    public CountryListAdapter(Context context) {
+    public CountryListAdapter(Context context, RecyclerViewClickListener recyclerViewClickListener) {
         mInflater = LayoutInflater.from(context);
+        mRecyclerViewClickListener = recyclerViewClickListener;
     }
 
     @NonNull
     @Override
     public CountryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = mInflater.inflate(R.layout.item_country, parent, false);
-        return new CountryViewHolder(itemView);
+        return new CountryViewHolder(itemView, mRecyclerViewClickListener);
     }
 
     @Override
@@ -55,10 +66,14 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
     }
 
     public void setCountries(List<Country> countries) {
-        Log.i("COUNTRIES", String.valueOf(mCountries));
         mCountries = countries;
         mCountriesAll = new ArrayList<>(countries);
         notifyDataSetChanged();
+    }
+
+
+    public Country getItem(int position) {
+        return mCountries.get(position);
     }
 
     @Override

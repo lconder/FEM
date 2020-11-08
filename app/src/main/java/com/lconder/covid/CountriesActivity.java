@@ -1,5 +1,6 @@
 package com.lconder.covid;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.lifecycle.Observer;
@@ -7,18 +8,21 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.lconder.covid.models.Country;
 import com.lconder.covid.models.CountryViewModel;
+import com.lconder.covid.models.RecyclerViewClickListener;
 import com.lconder.covid.views.CountryListAdapter;
-import com.lconder.covid.views.FavoriteListAdapter;
 
 import java.util.List;
 
-public class CountriesActivity extends AppCompatActivity {
+public class CountriesActivity extends AppCompatActivity implements RecyclerViewClickListener {
 
     private CountryViewModel countryViewModel;
     private CountryListAdapter adapter;
@@ -29,7 +33,7 @@ public class CountriesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_countries);
 
         RecyclerView recyclerView = findViewById(R.id.rvCountries);
-        adapter = new CountryListAdapter(this);
+        adapter = new CountryListAdapter(this, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -61,5 +65,23 @@ public class CountriesActivity extends AppCompatActivity {
             }
         });
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public void recyclerViewListClicked(int position) {
+        final Country country = adapter.getItem(position);
+        new AlertDialog.Builder(this)
+                .setTitle("Agregar a favoritos")
+                .setMessage("¿Está seguro que desea agregar a "+country.getEs_name()+" a sus favoritos?")
+                .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        countryViewModel.favorite(country.getCode(), true);
+                        Toast.makeText(getApplicationContext(), "Agregado", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }
+                })
+                .setNegativeButton(R.string.no, null)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
     }
 }

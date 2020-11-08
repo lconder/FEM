@@ -13,8 +13,8 @@ public interface CountryDAO {
     @Query("SELECT * FROM Country ORDER BY es_name")
     LiveData<List<Country>> getAll();
 
-    @Query("SELECT * FROM Country WHERE isFavorite=1 ORDER BY es_name")
-    LiveData<List<Country>> getFavorites();
+    @Query("SELECT * FROM Country WHERE isFavorite=:isFavorite ORDER BY es_name")
+    LiveData<List<Country>> getFavorites(boolean isFavorite);
 
     @Query("SELECT * FROM Country WHERE uid IN (:countriesIds)")
     LiveData<List<Country>> loadAllByIds(int[] countriesIds);
@@ -33,4 +33,7 @@ public interface CountryDAO {
 
     @Query("DELETE FROM Country")
     void deleteAll();
+
+    @Query("update Country set isFavorite=:isFavorite where code=:code")
+    int setFavorite(String code, boolean isFavorite);
 }

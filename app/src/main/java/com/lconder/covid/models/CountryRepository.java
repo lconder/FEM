@@ -5,9 +5,6 @@ import android.app.Application;
 import androidx.lifecycle.LiveData;
 
 import java.util.List;
-import android.app.Application;
-
-import androidx.lifecycle.LiveData;
 
 public class CountryRepository {
 
@@ -19,8 +16,8 @@ public class CountryRepository {
     CountryRepository(Application application) {
         AppDatabase db = AppDatabase.getDatabase(application);
         countryDAO = db.countryDAO();
-        mAllCountries = countryDAO.getAll();
-        mAllFavorites = countryDAO.getFavorites();
+        mAllCountries = countryDAO.getFavorites(false);
+        mAllFavorites = countryDAO.getFavorites(true);
     }
 
     LiveData<List<Country>>  getAllCountries() {
@@ -36,6 +33,15 @@ public class CountryRepository {
             @Override
             public void run() {
                 countryDAO.insert(country);
+            }
+        });
+    }
+
+    void favorite(final String code, final boolean flag) {
+        AppDatabase.databaseWriteExecutor.execute(new Runnable() {
+            @Override
+            public void run() {
+                countryDAO.setFavorite(code, flag);
             }
         });
     }

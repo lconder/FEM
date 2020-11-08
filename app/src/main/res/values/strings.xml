@@ -6,4 +6,6 @@
     <string name="general_error">Ha ocurrido un error</string>
     <string name="password_length">El password debe tener al menos 6 caracteres</string>
     <string name="reset_password_successfully">Te hemos enviado un correo.</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
 </resources>
