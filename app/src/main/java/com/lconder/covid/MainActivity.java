@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
@@ -19,15 +20,17 @@ import com.lconder.covid.models.AppDatabase;
 import com.lconder.covid.models.Country;
 import com.lconder.covid.models.CountryViewModel;
 import com.lconder.covid.views.FavoriteListAdapter;
+import com.lconder.covid.views.RecyclerViewClickListener;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerViewClickListener {
 
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authListener;
     AppDatabase db;
     private CountryViewModel countryViewModel;
+    FavoriteListAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
-        final FavoriteListAdapter adapter = new FavoriteListAdapter(this);
+        adapter = new FavoriteListAdapter(this, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -92,5 +95,15 @@ public class MainActivity extends AppCompatActivity {
         if (authListener != null) {
             auth.removeAuthStateListener(authListener);
         }
+    }
+
+    @Override
+    public void recyclerViewListClicked(int position) {
+        final Country country = adapter.getItem(position);
+        Toast.makeText(getApplicationContext(), "Presionado", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, CountryActivity.class);
+        intent.putExtra("CODE", country.getCode());
+        intent.putExtra("NAME", country.getName());
+        this.startActivity(intent);
     }
 }

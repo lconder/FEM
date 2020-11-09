@@ -8,4 +8,6 @@
     <string name="reset_password_successfully">Te hemos enviado un correo.</string>
     <string name="yes">SI</string>
     <string name="no">NO</string>
+    <string name="add_to_favorites">Agregar a favoritos</string>
+    <string name="added_to_favorites">Agregado</string>
 </resources>

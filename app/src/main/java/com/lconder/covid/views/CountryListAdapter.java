@@ -1,7 +1,6 @@
 package com.lconder.covid.views;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.lconder.covid.R;
 import com.lconder.covid.models.Country;
-import com.lconder.covid.models.RecyclerViewClickListener;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -117,5 +115,4 @@ public class CountryListAdapter extends RecyclerView.Adapter<CountryListAdapter.
             notifyDataSetChanged();
         }
     };
-
 }

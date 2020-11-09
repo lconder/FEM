@@ -10,14 +10,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.lconder.covid.models.Country;
 import com.lconder.covid.models.CountryViewModel;
-import com.lconder.covid.models.RecyclerViewClickListener;
+import com.lconder.covid.views.RecyclerViewClickListener;
 import com.lconder.covid.views.CountryListAdapter;
 
 import java.util.List;
@@ -71,12 +70,12 @@ public class CountriesActivity extends AppCompatActivity implements RecyclerView
     public void recyclerViewListClicked(int position) {
         final Country country = adapter.getItem(position);
         new AlertDialog.Builder(this)
-                .setTitle("Agregar a favoritos")
+                .setTitle(R.string.add_to_favorites)
                 .setMessage("¿Está seguro que desea agregar a "+country.getEs_name()+" a sus favoritos?")
                 .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         countryViewModel.favorite(country.getCode(), true);
-                        Toast.makeText(getApplicationContext(), "Agregado", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), R.string.added_to_favorites, Toast.LENGTH_SHORT).show();
                         finish();
                     }
                 })

@@ -1,4 +1,4 @@
-package com.lconder.covid.models;
+package com.lconder.covid.views;
 
 
 public interface RecyclerViewClickListener {

@@ -27,11 +27,18 @@ public class CountryActivity extends AppCompatActivity {
     TextView tvActive;
     TextView tvRecovered;
     TextView tvDeaths;
+    String code;
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country);
+
+        code = getIntent().getStringExtra("CODE");
+        name = getIntent().getStringExtra("NAME");
+        Log.i("COUNTRY", "onCreate: " + code);
+        Log.i("COUNTRY", "onCreate: " + name);
 
         ivFlag = findViewById(R.id.flag);
         tvCountry = findViewById(R.id.country);
@@ -44,14 +51,14 @@ public class CountryActivity extends AppCompatActivity {
         progressDialog.show();
 
         DataService service = RetrofitClientInstance.getInstance().create(DataService.class);
-        Call<RetroCountry> call = service.getById("mexico");
+        Call<RetroCountry> call = service.getById(name);
         call.enqueue(new Callback<RetroCountry>() {
             @Override
             public void onResponse(Call<RetroCountry> call, Response<RetroCountry> response) {
                 progressDialog.dismiss();
                 Log.i("Country", String.valueOf(response.body().getCases()));
                 Picasso.get()
-                        .load("https://www.countryflags.io/mx/flat/64.png")
+                        .load("https://www.countryflags.io/"+code+"/flat/64.png")
                         .into(ivFlag);
                 tvCountry.setText(response.body().getCountry());
                 tvActive.setText(response.body().getActive().toString());

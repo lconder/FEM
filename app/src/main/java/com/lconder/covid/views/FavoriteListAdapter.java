@@ -12,7 +12,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.lconder.covid.CountryActivity;
 import com.lconder.covid.R;
 import com.lconder.covid.models.Country;
 import com.squareup.picasso.Picasso;
@@ -21,39 +20,40 @@ import java.util.List;
 
 public class FavoriteListAdapter extends RecyclerView.Adapter<FavoriteListAdapter.FavoriteViewHolder> {
 
-    class FavoriteViewHolder extends RecyclerView.ViewHolder {
+    static class FavoriteViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         private final TextView tvCountryName;
         private final ImageView ivCountryImage;
+        RecyclerViewClickListener recyclerViewClickListener;
 
-        public FavoriteViewHolder(@NonNull View itemView) {
+        public FavoriteViewHolder(@NonNull View itemView, RecyclerViewClickListener recyclerViewClickListener) {
             super(itemView);
             tvCountryName = itemView.findViewById(R.id.country_name);
             ivCountryImage = itemView.findViewById(R.id.country_image);
+            this.recyclerViewClickListener = recyclerViewClickListener;
+            itemView.setOnClickListener(this);
+        }
 
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Context context = view.getContext();
-                    Intent intent = new Intent(context, CountryActivity.class);
-                    context.startActivity(intent);
-                }
-            });
+        @Override
+        public void onClick(View view) {
+            recyclerViewClickListener.recyclerViewListClicked(getAdapterPosition());
         }
     }
 
     private final LayoutInflater mInflater;
     private List<Country> mCountries;
+    private RecyclerViewClickListener mRecyclerViewClickListener;
 
-    public FavoriteListAdapter(Context context) {
+    public FavoriteListAdapter(Context context, RecyclerViewClickListener recyclerViewClickListener) {
         mInflater = LayoutInflater.from(context);
+        mRecyclerViewClickListener = recyclerViewClickListener;
     }
 
     @NonNull
     @Override
     public FavoriteViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = mInflater.inflate(R.layout.item_country_image, parent, false);
-        return new FavoriteViewHolder(itemView);
+        return new FavoriteViewHolder(itemView, mRecyclerViewClickListener);
     }
 
     @Override
@@ -70,6 +70,10 @@ public class FavoriteListAdapter extends RecyclerView.Adapter<FavoriteListAdapte
         notifyDataSetChanged();
     }
 
+    public Country getItem(int position) {
+        return mCountries.get(position);
+    }
+
     @Override
     public int getItemCount() {
         if(mCountries!=null) {
@@ -77,8 +81,4 @@ public class FavoriteListAdapter extends RecyclerView.Adapter<FavoriteListAdapte
         }
         return 0;
     }
-
-
-
-
 }
