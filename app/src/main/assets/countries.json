@@ -2,7 +2,7 @@
     "countries": [
         {
             "country": "Afghanistan",
-            "es_name": "Afghanistan",
+            "es_name": "Afganistán",
             "code": "AF",
             "flag": "https://www.countryflags.io/AF/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AF.jpg",
@@ -22,7 +22,7 @@
         },
         {
             "country": "Algeria",
-            "es_name": "Algeria",
+            "es_name": "Argelia",
             "code": "DZ",
             "flag": "https://www.countryflags.io/DZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DZ.jpg",
@@ -52,7 +52,7 @@
         },
         {
             "country": "Antigua and Barbuda",
-            "es_name": "Antigua and Barbuda",
+            "es_name": "Antigua y Barbuda",
             "code": "AG",
             "flag": "https://www.countryflags.io/AG/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AG.jpg",
@@ -102,7 +102,7 @@
         },
         {
             "country": "Azerbaijan",
-            "es_name": "Azerbaijan",
+            "es_name": "Azerbaiyán",
             "code": "AZ",
             "flag": "https://www.countryflags.io/AZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AZ.jpg",
@@ -122,7 +122,7 @@
         },
         {
             "country": "Bahrain",
-            "es_name": "Bahrain",
+            "es_name": "Baréin",
             "code": "BH",
             "flag": "https://www.countryflags.io/BH/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BH.jpg",
@@ -132,7 +132,7 @@
         },
         {
             "country": "Bangladesh",
-            "es_name": "Bangladesh",
+            "es_name": "Bangladés",
             "code": "BD",
             "flag": "https://www.countryflags.io/BD/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BD.jpg",
@@ -152,7 +152,7 @@
         },
         {
             "country": "Belarus",
-            "es_name": "Belarus",
+            "es_name": "Bielorrusia",
             "code": "BY",
             "flag": "https://www.countryflags.io/BY/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BY.jpg",
@@ -162,7 +162,7 @@
         },
         {
             "country": "Belgium",
-            "es_name": "Belgium",
+            "es_name": "Bélgica",
             "code": "BE",
             "flag": "https://www.countryflags.io/BE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BE.jpg",
@@ -172,7 +172,7 @@
         },
         {
             "country": "Belize",
-            "es_name": "Belize",
+            "es_name": "Belice",
             "code": "BZ",
             "flag": "https://www.countryflags.io/BZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BZ.jpg",
@@ -182,7 +182,7 @@
         },
         {
             "country": "Benin",
-            "es_name": "Benin",
+            "es_name": "Benín",
             "code": "BJ",
             "flag": "https://www.countryflags.io/BJ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BJ.jpg",
@@ -192,7 +192,7 @@
         },
         {
             "country": "Bhutan",
-            "es_name": "Bhutan",
+            "es_name": "Bután",
             "code": "BT",
             "flag": "https://www.countryflags.io/BT/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BT.jpg",
@@ -212,7 +212,7 @@
         },
         {
             "country": "Bosnia and Herzegovina",
-            "es_name": "Bosnia and Herzegovina",
+            "es_name": "Bosnia y Herzegovina",
             "code": "BA",
             "flag": "https://www.countryflags.io/BA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BA.jpg",
@@ -222,7 +222,7 @@
         },
         {
             "country": "Botswana",
-            "es_name": "Botswana",
+            "es_name": "Botsuana",
             "code": "BW",
             "flag": "https://www.countryflags.io/BW/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BW.jpg",
@@ -232,7 +232,7 @@
         },
         {
             "country": "Brazil",
-            "es_name": "Brazil",
+            "es_name": "Brasil",
             "code": "BR",
             "flag": "https://www.countryflags.io/BR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BR.jpg",
@@ -242,7 +242,7 @@
         },
         {
             "country": "Brunei Darussalam",
-            "es_name": "Brunei Darussalam",
+            "es_name": "Brunéi Darussalam",
             "code": "BN",
             "flag": "https://www.countryflags.io/BN/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/BN.jpg",
@@ -282,7 +282,7 @@
         },
         {
             "country": "Cambodia",
-            "es_name": "Cambodia",
+            "es_name": "Camboya",
             "code": "KH",
             "flag": "https://www.countryflags.io/KH/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KH.jpg",
@@ -292,7 +292,7 @@
         },
         {
             "country": "Cameroon",
-            "es_name": "Cameroon",
+            "es_name": "Camerún",
             "code": "CM",
             "flag": "https://www.countryflags.io/CM/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CM.jpg",
@@ -302,7 +302,7 @@
         },
         {
             "country": "Canada",
-            "es_name": "Canada",
+            "es_name": "Canadá",
             "code": "CA",
             "flag": "https://www.countryflags.io/CA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CA.jpg",
@@ -312,7 +312,7 @@
         },
         {
             "country": "Cape Verde",
-            "es_name": "Cape Verde",
+            "es_name": "Cabo Verde",
             "code": "CV",
             "flag": "https://www.countryflags.io/CV/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CV.jpg",
@@ -322,7 +322,7 @@
         },
         {
             "country": "Central African Republic",
-            "es_name": "Central African Republic",
+            "es_name": "República Centroafricana",
             "code": "CF",
             "flag": "https://www.countryflags.io/CF/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CF.jpg",
@@ -372,7 +372,7 @@
         },
         {
             "country": "Comoros",
-            "es_name": "Comoros",
+            "es_name": "Comoras",
             "code": "KM",
             "flag": "https://www.countryflags.io/KM/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KM.jpg",
@@ -382,7 +382,7 @@
         },
         {
             "country": "Congo (Brazzaville)",
-            "es_name": "Congo (Brazzaville)",
+            "es_name": "República del Congo",
             "code": "CG",
             "flag": "https://www.countryflags.io/CG/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CG.jpg",
@@ -392,7 +392,7 @@
         },
         {
             "country": "Congo (Kinshasa)",
-            "es_name": "Congo (Kinshasa)",
+            "es_name": "República Democrática del Congo",
             "code": "CD",
             "flag": "https://www.countryflags.io/CD/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CD.jpg",
@@ -412,7 +412,7 @@
         },
         {
             "country": "Croatia",
-            "es_name": "Croatia",
+            "es_name": "Croacia",
             "code": "HR",
             "flag": "https://www.countryflags.io/HR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/HR.jpg",
@@ -432,7 +432,7 @@
         },
         {
             "country": "Cyprus",
-            "es_name": "Cyprus",
+            "es_name": "Chipre",
             "code": "CY",
             "flag": "https://www.countryflags.io/CY/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CY.jpg",
@@ -442,7 +442,7 @@
         },
         {
             "country": "Czech Republic",
-            "es_name": "Czech Republic",
+            "es_name": "Republica Checa",
             "code": "CZ",
             "flag": "https://www.countryflags.io/CZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CZ.jpg",
@@ -452,7 +452,7 @@
         },
         {
             "country": "Côte d'Ivoire",
-            "es_name": "Côte d'Ivoire",
+            "es_name": "Costa de Marfil",
             "code": "CI",
             "flag": "https://www.countryflags.io/CI/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CI.jpg",
@@ -462,7 +462,7 @@
         },
         {
             "country": "Denmark",
-            "es_name": "Denmark",
+            "es_name": "Dinamarca",
             "code": "DK",
             "flag": "https://www.countryflags.io/DK/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DK.jpg",
@@ -472,7 +472,7 @@
         },
         {
             "country": "Djibouti",
-            "es_name": "Djibouti",
+            "es_name": "Yibuti",
             "code": "DJ",
             "flag": "https://www.countryflags.io/DJ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DJ.jpg",
@@ -492,7 +492,7 @@
         },
         {
             "country": "Dominican Republic",
-            "es_name": "Dominican Republic",
+            "es_name": "República Dominicana",
             "code": "DO",
             "flag": "https://www.countryflags.io/DO/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DO.jpg",
@@ -512,7 +512,7 @@
         },
         {
             "country": "Egypt",
-            "es_name": "Egypt",
+            "es_name": "Egipto",
             "code": "EG",
             "flag": "https://www.countryflags.io/EG/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/EG.jpg",
@@ -532,7 +532,7 @@
         },
         {
             "country": "Equatorial Guinea",
-            "es_name": "Equatorial Guinea",
+            "es_name": "Guinea Ecuatorial",
             "code": "GQ",
             "flag": "https://www.countryflags.io/GQ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GQ.jpg",
@@ -562,7 +562,7 @@
         },
         {
             "country": "Ethiopia",
-            "es_name": "Ethiopia",
+            "es_name": "Etiopía",
             "code": "ET",
             "flag": "https://www.countryflags.io/ET/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ET.jpg",
@@ -572,7 +572,7 @@
         },
         {
             "country": "Fiji",
-            "es_name": "Fiji",
+            "es_name": "Fiyi",
             "code": "FJ",
             "flag": "https://www.countryflags.io/FJ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/FJ.jpg",
@@ -582,7 +582,7 @@
         },
         {
             "country": "Finland",
-            "es_name": "Finland",
+            "es_name": "Finlandia",
             "code": "FI",
             "flag": "https://www.countryflags.io/FI/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/FI.jpg",
@@ -592,7 +592,7 @@
         },
         {
             "country": "France",
-            "es_name": "France",
+            "es_name": "Francia",
             "code": "FR",
             "flag": "https://www.countryflags.io/FR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/FR.jpg",
@@ -602,7 +602,7 @@
         },
         {
             "country": "Gabon",
-            "es_name": "Gabon",
+            "es_name": "Gabón",
             "code": "GA",
             "flag": "https://www.countryflags.io/GA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GA.jpg",
@@ -632,7 +632,7 @@
         },
         {
             "country": "Germany",
-            "es_name": "Germany",
+            "es_name": "Alemania",
             "code": "DE",
             "flag": "https://www.countryflags.io/DE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DE.jpg",
@@ -652,7 +652,7 @@
         },
         {
             "country": "Greece",
-            "es_name": "Greece",
+            "es_name": "Grecia",
             "code": "GR",
             "flag": "https://www.countryflags.io/GR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GR.jpg",
@@ -662,7 +662,7 @@
         },
         {
             "country": "Grenada",
-            "es_name": "Grenada",
+            "es_name": "Granada",
             "code": "GD",
             "flag": "https://www.countryflags.io/GD/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GD.jpg",
@@ -692,7 +692,7 @@
         },
         {
             "country": "Guinea-Bissau",
-            "es_name": "Guinea-Bissau",
+            "es_name": "Guinea-Bisáu",
             "code": "GW",
             "flag": "https://www.countryflags.io/GW/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GW.jpg",
@@ -712,7 +712,7 @@
         },
         {
             "country": "Haiti",
-            "es_name": "Haiti",
+            "es_name": "Haití",
             "code": "HT",
             "flag": "https://www.countryflags.io/HT/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/HT.jpg",
@@ -722,7 +722,7 @@
         },
         {
             "country": "Holy See (Vatican City State)",
-            "es_name": "Holy See (Vatican City State)",
+            "es_name": "Santa Sede (Ciudad del Vaticano)",
             "code": "VA",
             "flag": "https://www.countryflags.io/VA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VA.jpg",
@@ -742,7 +742,7 @@
         },
         {
             "country": "Hungary",
-            "es_name": "Hungary",
+            "es_name": "Hungría",
             "code": "HU",
             "flag": "https://www.countryflags.io/HU/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/HU.jpg",
@@ -752,7 +752,7 @@
         },
         {
             "country": "Iceland",
-            "es_name": "Iceland",
+            "es_name": "Islandia",
             "code": "IS",
             "flag": "https://www.countryflags.io/IS/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IS.jpg",
@@ -782,7 +782,7 @@
         },
         {
             "country": "Iran, Islamic Republic of",
-            "es_name": "Iran, Islamic Republic of",
+            "es_name": "Irán, República Islámica",
             "code": "IR",
             "flag": "https://www.countryflags.io/IR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IR.jpg",
@@ -792,7 +792,7 @@
         },
         {
             "country": "Iraq",
-            "es_name": "Iraq",
+            "es_name": "Irak",
             "code": "IQ",
             "flag": "https://www.countryflags.io/IQ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IQ.jpg",
@@ -802,7 +802,7 @@
         },
         {
             "country": "Ireland",
-            "es_name": "Ireland",
+            "es_name": "Irlanda",
             "code": "IE",
             "flag": "https://www.countryflags.io/IE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IE.jpg",
@@ -822,7 +822,7 @@
         },
         {
             "country": "Italy",
-            "es_name": "Italy",
+            "es_name": "Italia",
             "code": "IT",
             "flag": "https://www.countryflags.io/IT/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IT.jpg",
@@ -842,7 +842,7 @@
         },
         {
             "country": "Japan",
-            "es_name": "Japan",
+            "es_name": "Japón",
             "code": "JP",
             "flag": "https://www.countryflags.io/JP/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/JP.jpg",
@@ -852,7 +852,7 @@
         },
         {
             "country": "Jordan",
-            "es_name": "Jordan",
+            "es_name": "Jordania",
             "code": "JO",
             "flag": "https://www.countryflags.io/JO/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/JO.jpg",
@@ -862,7 +862,7 @@
         },
         {
             "country": "Kazakhstan",
-            "es_name": "Kazakhstan",
+            "es_name": "Kazajistán",
             "code": "KZ",
             "flag": "https://www.countryflags.io/KZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KZ.jpg",
@@ -872,7 +872,7 @@
         },
         {
             "country": "Kenya",
-            "es_name": "Kenya",
+            "es_name": "Kenia",
             "code": "KE",
             "flag": "https://www.countryflags.io/KE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KE.jpg",
@@ -882,7 +882,7 @@
         },
         {
             "country": "Korea (South)",
-            "es_name": "Korea (South)",
+            "es_name": "Corea (Sur)",
             "code": "KR",
             "flag": "https://www.countryflags.io/KR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KR.jpg",
@@ -902,7 +902,7 @@
         },
         {
             "country": "Kyrgyzstan",
-            "es_name": "Kyrgyzstan",
+            "es_name": "Kirguistán",
             "code": "KG",
             "flag": "https://www.countryflags.io/KG/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KG.jpg",
@@ -912,7 +912,7 @@
         },
         {
             "country": "Lao PDR",
-            "es_name": "Lao PDR",
+            "es_name": "Laos",
             "code": "LA",
             "flag": "https://www.countryflags.io/LA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LA.jpg",
@@ -932,7 +932,7 @@
         },
         {
             "country": "Lebanon",
-            "es_name": "Lebanon",
+            "es_name": "Líbano ",
             "code": "LB",
             "flag": "https://www.countryflags.io/LB/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LB.jpg",
@@ -942,7 +942,7 @@
         },
         {
             "country": "Lesotho",
-            "es_name": "Lesotho",
+            "es_name": "Lesoto",
             "code": "LS",
             "flag": "https://www.countryflags.io/LS/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LS.jpg",
@@ -962,7 +962,7 @@
         },
         {
             "country": "Libya",
-            "es_name": "Libya",
+            "es_name": "Libia",
             "code": "LY",
             "flag": "https://www.countryflags.io/LY/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LY.jpg",
@@ -982,7 +982,7 @@
         },
         {
             "country": "Lithuania",
-            "es_name": "Lithuania",
+            "es_name": "Lituania",
             "code": "LT",
             "flag": "https://www.countryflags.io/LT/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LT.jpg",
@@ -992,7 +992,7 @@
         },
         {
             "country": "Luxembourg",
-            "es_name": "Luxembourg",
+            "es_name": "Luxemburgo",
             "code": "LU",
             "flag": "https://www.countryflags.io/LU/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LU.jpg",
@@ -1012,7 +1012,7 @@
         },
         {
             "country": "Macedonia, Republic of",
-            "es_name": "Macedonia, Republic of",
+            "es_name": "República de Macedonia",
             "code": "MK",
             "flag": "https://www.countryflags.io/MK/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MK.jpg",
@@ -1032,7 +1032,7 @@
         },
         {
             "country": "Malawi",
-            "es_name": "Malawi",
+            "es_name": "Malaui",
             "code": "MW",
             "flag": "https://www.countryflags.io/MW/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MW.jpg",
@@ -1042,7 +1042,7 @@
         },
         {
             "country": "Malaysia",
-            "es_name": "Malaysia",
+            "es_name": "Malasia",
             "code": "MY",
             "flag": "https://www.countryflags.io/MY/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MY.jpg",
@@ -1052,7 +1052,7 @@
         },
         {
             "country": "Maldives",
-            "es_name": "Maldives",
+            "es_name": "Maldivas",
             "code": "MV",
             "flag": "https://www.countryflags.io/MV/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MV.jpg",
@@ -1062,7 +1062,7 @@
         },
         {
             "country": "Mali",
-            "es_name": "Mali",
+            "es_name": "Malí",
             "code": "ML",
             "flag": "https://www.countryflags.io/ML/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ML.jpg",
@@ -1082,7 +1082,7 @@
         },
         {
             "country": "Marshall Islands",
-            "es_name": "Marshall Islands",
+            "es_name": "Islas Marshall",
             "code": "MH",
             "flag": "https://www.countryflags.io/MH/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MH.jpg",
@@ -1102,7 +1102,7 @@
         },
         {
             "country": "Mauritius",
-            "es_name": "Mauritius",
+            "es_name": "Mauricio",
             "code": "MU",
             "flag": "https://www.countryflags.io/MU/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MU.jpg",
@@ -1112,7 +1112,7 @@
         },
         {
             "country": "Mexico",
-            "es_name": "Mexico",
+            "es_name": "México",
             "code": "MX",
             "flag": "https://www.countryflags.io/MX/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MX.jpg",
@@ -1122,7 +1122,7 @@
         },
         {
             "country": "Moldova",
-            "es_name": "Moldova",
+            "es_name": "Moldavia",
             "code": "MD",
             "flag": "https://www.countryflags.io/MD/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MD.jpg",
@@ -1132,7 +1132,7 @@
         },
         {
             "country": "Monaco",
-            "es_name": "Monaco",
+            "es_name": "Mónaco",
             "code": "MC",
             "flag": "https://www.countryflags.io/MC/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MC.jpg",
@@ -1162,7 +1162,7 @@
         },
         {
             "country": "Morocco",
-            "es_name": "Morocco",
+            "es_name": "Marruecos",
             "code": "MA",
             "flag": "https://www.countryflags.io/MA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MA.jpg",
@@ -1182,7 +1182,7 @@
         },
         {
             "country": "Myanmar",
-            "es_name": "Myanmar",
+            "es_name": "Birmania",
             "code": "MM",
             "flag": "https://www.countryflags.io/MM/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MM.jpg",
@@ -1212,7 +1212,7 @@
         },
         {
             "country": "Netherlands",
-            "es_name": "Netherlands",
+            "es_name": "Países Bajos",
             "code": "NL",
             "flag": "https://www.countryflags.io/NL/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NL.jpg",
@@ -1222,7 +1222,7 @@
         },
         {
             "country": "New Zealand",
-            "es_name": "New Zealand",
+            "es_name": "Nueva Zelanda",
             "code": "NZ",
             "flag": "https://www.countryflags.io/NZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NZ.jpg",
@@ -1242,7 +1242,7 @@
         },
         {
             "country": "Niger",
-            "es_name": "Niger",
+            "es_name": "Níger",
             "code": "NE",
             "flag": "https://www.countryflags.io/NE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NE.jpg",
@@ -1262,7 +1262,7 @@
         },
         {
             "country": "Norway",
-            "es_name": "Norway",
+            "es_name": "Noruega",
             "code": "NO",
             "flag": "https://www.countryflags.io/NO/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/NO.jpg",
@@ -1272,7 +1272,7 @@
         },
         {
             "country": "Oman",
-            "es_name": "Oman",
+            "es_name": "Omán",
             "code": "OM",
             "flag": "https://www.countryflags.io/OM/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/OM.jpg",
@@ -1282,7 +1282,7 @@
         },
         {
             "country": "Pakistan",
-            "es_name": "Pakistan",
+            "es_name": "Pakistán",
             "code": "PK",
             "flag": "https://www.countryflags.io/PK/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PK.jpg",
@@ -1292,7 +1292,7 @@
         },
         {
             "country": "Palestinian Territory",
-            "es_name": "Palestinian Territory",
+            "es_name": "Territorios Palestinos",
             "code": "PS",
             "flag": "https://www.countryflags.io/PS/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PS.jpg",
@@ -1302,7 +1302,7 @@
         },
         {
             "country": "Panama",
-            "es_name": "Panama",
+            "es_name": "Panamá",
             "code": "PA",
             "flag": "https://www.countryflags.io/PA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PA.jpg",
@@ -1312,7 +1312,7 @@
         },
         {
             "country": "Papua New Guinea",
-            "es_name": "Papua New Guinea",
+            "es_name": "Papúa Nueva Guinea",
             "code": "PG",
             "flag": "https://www.countryflags.io/PG/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PG.jpg",
@@ -1332,7 +1332,7 @@
         },
         {
             "country": "Peru",
-            "es_name": "Peru",
+            "es_name": "Perú",
             "code": "PE",
             "flag": "https://www.countryflags.io/PE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PE.jpg",
@@ -1342,7 +1342,7 @@
         },
         {
             "country": "Philippines",
-            "es_name": "Philippines",
+            "es_name": "Filipinas",
             "code": "PH",
             "flag": "https://www.countryflags.io/PH/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PH.jpg",
@@ -1352,7 +1352,7 @@
         },
         {
             "country": "Poland",
-            "es_name": "Poland",
+            "es_name": "Polania",
             "code": "PL",
             "flag": "https://www.countryflags.io/PL/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/PL.jpg",
@@ -1382,7 +1382,7 @@
         },
         {
             "country": "Republic of Kosovo",
-            "es_name": "Republic of Kosovo",
+            "es_name": "República de Kosovo",
             "code": "XK",
             "flag": "https://www.countryflags.io/XK/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/XK.jpg",
@@ -1392,7 +1392,7 @@
         },
         {
             "country": "Romania",
-            "es_name": "Romania",
+            "es_name": "Rumania",
             "code": "RO",
             "flag": "https://www.countryflags.io/RO/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RO.jpg",
@@ -1402,7 +1402,7 @@
         },
         {
             "country": "Russian Federation",
-            "es_name": "Russian Federation",
+            "es_name": "Federación de Rusia",
             "code": "RU",
             "flag": "https://www.countryflags.io/RU/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RU.jpg",
@@ -1412,7 +1412,7 @@
         },
         {
             "country": "Rwanda",
-            "es_name": "Rwanda",
+            "es_name": "Ruanda",
             "code": "RW",
             "flag": "https://www.countryflags.io/RW/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RW.jpg",
@@ -1422,7 +1422,7 @@
         },
         {
             "country": "Réunion",
-            "es_name": "Réunion",
+            "es_name": "Reunión",
             "code": "RE",
             "flag": "https://www.countryflags.io/RE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RE.jpg",
@@ -1432,7 +1432,7 @@
         },
         {
             "country": "Saint Kitts and Nevis",
-            "es_name": "Saint Kitts and Nevis",
+            "es_name": "San Cristóbal y Nieves",
             "code": "KN",
             "flag": "https://www.countryflags.io/KN/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/KN.jpg",
@@ -1442,7 +1442,7 @@
         },
         {
             "country": "Saint Lucia",
-            "es_name": "Saint Lucia",
+            "es_name": "Santa Lucía",
             "code": "LC",
             "flag": "https://www.countryflags.io/LC/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/LC.jpg",
@@ -1452,7 +1452,7 @@
         },
         {
             "country": "Saint Vincent and Grenadines",
-            "es_name": "Saint Vincent and Grenadines",
+            "es_name": "San Vicente y las Granadinas",
             "code": "VC",
             "flag": "https://www.countryflags.io/VC/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VC.jpg",
@@ -1472,7 +1472,7 @@
         },
         {
             "country": "Sao Tome and Principe",
-            "es_name": "Sao Tome and Principe",
+            "es_name": "Santo Tomé y Príncipe",
             "code": "ST",
             "flag": "https://www.countryflags.io/ST/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ST.jpg",
@@ -1482,7 +1482,7 @@
         },
         {
             "country": "Saudi Arabia",
-            "es_name": "Saudi Arabia",
+            "es_name": "Arabia Saudita",
             "code": "SA",
             "flag": "https://www.countryflags.io/SA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SA.jpg",
@@ -1522,7 +1522,7 @@
         },
         {
             "country": "Sierra Leone",
-            "es_name": "Sierra Leone",
+            "es_name": "Sierra Leona",
             "code": "SL",
             "flag": "https://www.countryflags.io/SL/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SL.jpg",
@@ -1532,7 +1532,7 @@
         },
         {
             "country": "Singapore",
-            "es_name": "Singapore",
+            "es_name": "Singapur",
             "code": "SG",
             "flag": "https://www.countryflags.io/SG/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SG.jpg",
@@ -1542,7 +1542,7 @@
         },
         {
             "country": "Slovakia",
-            "es_name": "Slovakia",
+            "es_name": "Eslovaquia",
             "code": "SK",
             "flag": "https://www.countryflags.io/SK/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SK.jpg",
@@ -1552,7 +1552,7 @@
         },
         {
             "country": "Slovenia",
-            "es_name": "Slovenia",
+            "es_name": "Eslovenia",
             "code": "SI",
             "flag": "https://www.countryflags.io/SI/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SI.jpg",
@@ -1562,7 +1562,7 @@
         },
         {
             "country": "Solomon Islands",
-            "es_name": "Solomon Islands",
+            "es_name": "Islas Salomón",
             "code": "SB",
             "flag": "https://www.countryflags.io/SB/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SB.jpg",
@@ -1582,7 +1582,7 @@
         },
         {
             "country": "South Africa",
-            "es_name": "South Africa",
+            "es_name": "Sudáfrica",
             "code": "ZA",
             "flag": "https://www.countryflags.io/ZA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ZA.jpg",
@@ -1592,7 +1592,7 @@
         },
         {
             "country": "South Sudan",
-            "es_name": "South Sudan",
+            "es_name": "Sudán del Sur",
             "code": "SS",
             "flag": "https://www.countryflags.io/SS/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SS.jpg",
@@ -1602,7 +1602,7 @@
         },
         {
             "country": "Spain",
-            "es_name": "Spain",
+            "es_name": "España",
             "code": "ES",
             "flag": "https://www.countryflags.io/ES/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ES.jpg",
@@ -1622,7 +1622,7 @@
         },
         {
             "country": "Sudan",
-            "es_name": "Sudan",
+            "es_name": "Sudán",
             "code": "SD",
             "flag": "https://www.countryflags.io/SD/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SD.jpg",
@@ -1632,7 +1632,7 @@
         },
         {
             "country": "Suriname",
-            "es_name": "Suriname",
+            "es_name": "Surinam",
             "code": "SR",
             "flag": "https://www.countryflags.io/SR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SR.jpg",
@@ -1642,7 +1642,7 @@
         },
         {
             "country": "Swaziland",
-            "es_name": "Swaziland",
+            "es_name": "Suazilandia",
             "code": "SZ",
             "flag": "https://www.countryflags.io/SZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SZ.jpg",
@@ -1652,7 +1652,7 @@
         },
         {
             "country": "Sweden",
-            "es_name": "Sweden",
+            "es_name": "Suecia",
             "code": "SE",
             "flag": "https://www.countryflags.io/SE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SE.jpg",
@@ -1662,7 +1662,7 @@
         },
         {
             "country": "Switzerland",
-            "es_name": "Switzerland",
+            "es_name": "Suiza",
             "code": "CH",
             "flag": "https://www.countryflags.io/CH/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/CH.jpg",
@@ -1672,7 +1672,7 @@
         },
         {
             "country": "Syrian Arab Republic (Syria)",
-            "es_name": "Syrian Arab Republic (Syria)",
+            "es_name": "República Árabe Siria​",
             "code": "SY",
             "flag": "https://www.countryflags.io/SY/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SY.jpg",
@@ -1682,7 +1682,7 @@
         },
         {
             "country": "Taiwan, Republic of China",
-            "es_name": "Taiwan, Republic of China",
+            "es_name": "Taiwan, República de China",
             "code": "TW",
             "flag": "https://www.countryflags.io/TW/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TW.jpg",
@@ -1692,7 +1692,7 @@
         },
         {
             "country": "Tajikistan",
-            "es_name": "Tajikistan",
+            "es_name": "Tayikistán",
             "code": "TJ",
             "flag": "https://www.countryflags.io/TJ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TJ.jpg",
@@ -1702,7 +1702,7 @@
         },
         {
             "country": "Tanzania, United Republic of",
-            "es_name": "Tanzania, United Republic of",
+            "es_name": "República Unida de Tanzania",
             "code": "TZ",
             "flag": "https://www.countryflags.io/TZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TZ.jpg",
@@ -1712,7 +1712,7 @@
         },
         {
             "country": "Thailand",
-            "es_name": "Thailand",
+            "es_name": "Tailandia",
             "code": "TH",
             "flag": "https://www.countryflags.io/TH/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TH.jpg",
@@ -1722,7 +1722,7 @@
         },
         {
             "country": "Timor-Leste",
-            "es_name": "Timor-Leste",
+            "es_name": "Timor Oriental",
             "code": "TL",
             "flag": "https://www.countryflags.io/TL/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TL.jpg",
@@ -1742,7 +1742,7 @@
         },
         {
             "country": "Trinidad and Tobago",
-            "es_name": "Trinidad and Tobago",
+            "es_name": "Trinidad y Tobago",
             "code": "TT",
             "flag": "https://www.countryflags.io/TT/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TT.jpg",
@@ -1752,7 +1752,7 @@
         },
         {
             "country": "Tunisia",
-            "es_name": "Tunisia",
+            "es_name": "Túnez",
             "code": "TN",
             "flag": "https://www.countryflags.io/TN/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TN.jpg",
@@ -1762,7 +1762,7 @@
         },
         {
             "country": "Turkey",
-            "es_name": "Turkey",
+            "es_name": "Turquía",
             "code": "TR",
             "flag": "https://www.countryflags.io/TR/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TR.jpg",
@@ -1782,7 +1782,7 @@
         },
         {
             "country": "Ukraine",
-            "es_name": "Ukraine",
+            "es_name": "Ucrania",
             "code": "UA",
             "flag": "https://www.countryflags.io/UA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UA.jpg",
@@ -1792,7 +1792,7 @@
         },
         {
             "country": "United Arab Emirates",
-            "es_name": "United Arab Emirates",
+            "es_name": "Emiratos Árabes Unidos",
             "code": "AE",
             "flag": "https://www.countryflags.io/AE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/AE.jpg",
@@ -1802,7 +1802,7 @@
         },
         {
             "country": "United Kingdom",
-            "es_name": "United Kingdom",
+            "es_name": "Reino Unido",
             "code": "GB",
             "flag": "https://www.countryflags.io/GB/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/GB.jpg",
@@ -1812,7 +1812,7 @@
         },
         {
             "country": "United States of America",
-            "es_name": "United States of America",
+            "es_name": "Estados Unidos de America",
             "code": "US",
             "flag": "https://www.countryflags.io/US/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/US.jpg",
@@ -1832,7 +1832,7 @@
         },
         {
             "country": "Uzbekistan",
-            "es_name": "Uzbekistan",
+            "es_name": "Uzbekistán",
             "code": "UZ",
             "flag": "https://www.countryflags.io/UZ/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UZ.jpg",
@@ -1842,7 +1842,7 @@
         },
         {
             "country": "Venezuela (Bolivarian Republic)",
-            "es_name": "Venezuela (Bolivarian Republic)",
+            "es_name": "República Bolivariana de Venezuela",
             "code": "VE",
             "flag": "https://www.countryflags.io/VE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VE.jpg",
@@ -1852,7 +1852,7 @@
         },
         {
             "country": "Viet Nam",
-            "es_name": "Viet Nam",
+            "es_name": "Vietnam",
             "code": "VN",
             "flag": "https://www.countryflags.io/VN/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VN.jpg",
@@ -1862,7 +1862,7 @@
         },
         {
             "country": "Western Sahara",
-            "es_name": "Western Sahara",
+            "es_name": "Sahara Occidental",
             "code": "EH",
             "flag": "https://www.countryflags.io/EH/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/EH.jpg",
@@ -1872,7 +1872,7 @@
         },
         {
             "country": "Yemen",
-            "es_name": "Yemen",
+            "es_name": "Yemén",
             "code": "YE",
             "flag": "https://www.countryflags.io/YE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/YE.jpg",
@@ -1892,7 +1892,7 @@
         },
         {
             "country": "Zimbabwe",
-            "es_name": "Zimbabwe",
+            "es_name": "Zimbabue",
             "code": "ZW",
             "flag": "https://www.countryflags.io/ZW/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/ZW.jpg",

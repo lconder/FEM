@@ -31,8 +31,8 @@ public class ResetPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password);
 
-        inputEmail = (EditText) findViewById(R.id.input_email);
-        progressBar = (ProgressBar) findViewById(R.id.progress_bar);
+        inputEmail = findViewById(R.id.input_email);
+        progressBar = findViewById(R.id.progress_bar);
 
         auth = FirebaseAuth.getInstance();
     }

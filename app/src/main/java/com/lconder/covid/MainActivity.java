@@ -1,41 +1,33 @@
 package com.lconder.covid;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.lconder.covid.models.AppDatabase;
-import com.lconder.covid.models.Country;
-import com.lconder.covid.models.CountryViewModel;
-import com.lconder.covid.views.FavoriteListAdapter;
-import com.lconder.covid.views.RecyclerViewClickListener;
 
-import java.util.List;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity implements RecyclerViewClickListener {
+public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authListener;
     AppDatabase db;
-    private CountryViewModel countryViewModel;
-    FavoriteListAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         auth = FirebaseAuth.getInstance();
 
@@ -46,41 +38,17 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewClick
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if(user==null) {
-                    startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                    startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                     finish();
                 }
             }
         };
 
-        RecyclerView recyclerView = findViewById(R.id.recyclerview);
-        adapter = new FavoriteListAdapter(this, this);
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        countryViewModel = new ViewModelProvider(this).get(CountryViewModel.class);
-
-        countryViewModel.getFavorites().observe(this, new Observer<List<Country>>() {
-            @Override
-            public void onChanged(List<Country> countries) {
-                adapter.setFavorites(countries);
-            }
-        });
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Context context = view.getContext();
-                Intent intent = new Intent(context, CountriesActivity.class);
-                context.startActivity(intent);
-            }
-        });
-
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
+        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager.setAdapter(sectionsPagerAdapter);
+        TabLayout tabs = findViewById(R.id.tabs);
+        tabs.setupWithViewPager(viewPager);
     }
 
     @Override
@@ -97,13 +65,44 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewClick
         }
     }
 
-    @Override
-    public void recyclerViewListClicked(int position) {
-        final Country country = adapter.getItem(position);
-        Toast.makeText(getApplicationContext(), "Presionado", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, CountryActivity.class);
-        intent.putExtra("CODE", country.getCode());
-        intent.putExtra("NAME", country.getName());
-        this.startActivity(intent);
+    public static class SectionsPagerAdapter extends FragmentPagerAdapter {
+
+        public SectionsPagerAdapter(@NonNull FragmentManager fm) {
+            super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        }
+
+        @NonNull
+        @Override
+        public Fragment getItem(int position) {
+            Fragment tabFragment = null;
+            switch (position) {
+                case 0:
+                    tabFragment = new FavoriteFragment();
+                    break;
+                case 1:
+                    tabFragment = new MapFragment();
+                    break;
+            }
+            return tabFragment;
+        }
+
+        @Override
+        public int getCount() {
+            return 2;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+
+            switch (position) {
+                case 0:
+                    return "Favoritos";
+                case 1:
+                    return "Mapa";
+            }
+            return null;
+        }
     }
+
+
 }
