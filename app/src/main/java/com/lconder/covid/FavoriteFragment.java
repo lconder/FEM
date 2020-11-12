@@ -64,7 +64,6 @@ public class FavoriteFragment extends Fragment implements RecyclerViewClickListe
     @Override
     public void recyclerViewListClicked(int position) {
         final Country country = adapter.getItem(position);
-        Toast.makeText(getActivity(), "Presionado", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getActivity(), CountryActivity.class);
         intent.putExtra("CODE", country.getCode());
         intent.putExtra("NAME", country.getName());

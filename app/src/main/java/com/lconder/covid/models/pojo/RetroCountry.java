@@ -1,21 +1,5 @@
 package com.lconder.covid.models.pojo;
 
-/*
-* {
-  "country": "Spain",
-  "": 1365895,
-  "": 0,
-  "": 38486,
-  "": 0,
-  "recovered": null,
-  "active": null,
-  "critical": 2802,
-  "": 29210,
-  "": 823,
-  "": 18072174,
-  "": 386479
-}*/
-
 import com.google.gson.annotations.SerializedName;
 
 public class RetroCountry {

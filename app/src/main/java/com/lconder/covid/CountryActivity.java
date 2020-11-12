@@ -15,6 +15,8 @@ import com.lconder.covid.models.RetrofitClientInstance;
 import com.lconder.covid.models.pojo.RetroCountry;
 import com.squareup.picasso.Picasso;
 
+import java.text.DecimalFormat;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -29,6 +31,7 @@ public class CountryActivity extends AppCompatActivity {
     TextView tvDeaths;
     String code;
     String name;
+    DecimalFormat formatter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +40,8 @@ public class CountryActivity extends AppCompatActivity {
 
         code = getIntent().getStringExtra("CODE");
         name = getIntent().getStringExtra("NAME");
-        Log.i("COUNTRY", "onCreate: " + code);
-        Log.i("COUNTRY", "onCreate: " + name);
+
+        formatter = new DecimalFormat("#,###,###");
 
         ivFlag = findViewById(R.id.flag);
         tvCountry = findViewById(R.id.country);
@@ -56,16 +59,36 @@ public class CountryActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<RetroCountry> call, Response<RetroCountry> response) {
                 progressDialog.dismiss();
-                Log.i("Country", String.valueOf(response.body().getCases()));
                 Picasso.get()
                         .load("https://www.countryflags.io/"+code+"/flat/64.png")
-                        .into(ivFlag);
-                tvCountry.setText(response.body().getCountry());
-                tvActive.setText(response.body().getActive().toString());
-                tvRecovered.setText(response.body().getRecovered().toString());
-                tvDeaths.setText(response.body().getDeaths().toString());
-            }
+                        .error(R.drawable.flag)
+                        .into(ivFlag)
+                ;
+                assert response.body() != null;
+                if(response.body().getCountry() != null) {
+                    tvCountry.setText(response.body().getCountry().toString());
+                } else {
+                    tvCountry.setText(R.string.not_info_available);
+                }
 
+                if(response.body().getActive() != null) {
+                    tvActive.setText(formatter.format(response.body().getActive()));
+                } else {
+                    tvActive.setText(R.string.not_info_available);
+                }
+
+                if(response.body().getRecovered() != null) {
+                    tvRecovered.setText(formatter.format(response.body().getRecovered()));
+                } else {
+                    tvRecovered.setText(R.string.not_info_available);
+                }
+
+                if(response.body().getDeaths() != null) {
+                    tvDeaths.setText(formatter.format(response.body().getDeaths()));
+                } else {
+                    tvDeaths.setText(R.string.not_info_available);
+                }
+            }
             @Override
             public void onFailure(Call<RetroCountry> call, Throwable t) {
                 progressDialog.dismiss();

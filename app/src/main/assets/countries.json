@@ -241,7 +241,7 @@
             "isFavorite": false
         },
         {
-            "country": "Brunei Darussalam",
+            "country": "Brunei",
             "es_name": "Brunéi Darussalam",
             "code": "BN",
             "flag": "https://www.countryflags.io/BN/flat/64.png",
@@ -311,7 +311,7 @@
             "isFavorite": false
         },
         {
-            "country": "Cape Verde",
+            "country": "Cabo Verde",
             "es_name": "Cabo Verde",
             "code": "CV",
             "flag": "https://www.countryflags.io/CV/flat/64.png",
@@ -381,7 +381,7 @@
             "isFavorite": false
         },
         {
-            "country": "Congo (Brazzaville)",
+            "country": "Congo",
             "es_name": "República del Congo",
             "code": "CG",
             "flag": "https://www.countryflags.io/CG/flat/64.png",
@@ -391,7 +391,7 @@
             "isFavorite": false
         },
         {
-            "country": "Congo (Kinshasa)",
+            "country": "Congo",
             "es_name": "República Democrática del Congo",
             "code": "CD",
             "flag": "https://www.countryflags.io/CD/flat/64.png",
@@ -441,7 +441,7 @@
             "isFavorite": false
         },
         {
-            "country": "Czech Republic",
+            "country": "Czechia",
             "es_name": "Republica Checa",
             "code": "CZ",
             "flag": "https://www.countryflags.io/CZ/flat/64.png",
@@ -451,7 +451,7 @@
             "isFavorite": false
         },
         {
-            "country": "Côte d'Ivoire",
+            "country": "Ivory Coast",
             "es_name": "Costa de Marfil",
             "code": "CI",
             "flag": "https://www.countryflags.io/CI/flat/64.png",
@@ -525,7 +525,7 @@
             "es_name": "El Salvador",
             "code": "SV",
             "flag": "https://www.countryflags.io/SV/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SV.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SV.png",
             "latitude": "13.794185",
             "longitude": "-88.89653",
             "isFavorite": false
@@ -635,7 +635,7 @@
             "es_name": "Alemania",
             "code": "DE",
             "flag": "https://www.countryflags.io/DE/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DE.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/DE.jpeg",
             "latitude": "51.165691",
             "longitude": "10.451526",
             "isFavorite": false
@@ -721,7 +721,7 @@
             "isFavorite": false
         },
         {
-            "country": "Holy See (Vatican City State)",
+            "country": "Vatican City",
             "es_name": "Santa Sede (Ciudad del Vaticano)",
             "code": "VA",
             "flag": "https://www.countryflags.io/VA/flat/64.png",
@@ -781,7 +781,7 @@
             "isFavorite": false
         },
         {
-            "country": "Iran, Islamic Republic of",
+            "country": "Iran",
             "es_name": "Irán, República Islámica",
             "code": "IR",
             "flag": "https://www.countryflags.io/IR/flat/64.png",
@@ -825,7 +825,7 @@
             "es_name": "Italia",
             "code": "IT",
             "flag": "https://www.countryflags.io/IT/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IT.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/IT.jpeg",
             "latitude": "41.87194",
             "longitude": "12.56738",
             "isFavorite": false
@@ -845,7 +845,7 @@
             "es_name": "Japón",
             "code": "JP",
             "flag": "https://www.countryflags.io/JP/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/JP.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/JP.png",
             "latitude": "36.204824",
             "longitude": "138.252924",
             "isFavorite": false
@@ -881,7 +881,7 @@
             "isFavorite": false
         },
         {
-            "country": "Korea (South)",
+            "country": "S. Korea",
             "es_name": "Corea (Sur)",
             "code": "KR",
             "flag": "https://www.countryflags.io/KR/flat/64.png",
@@ -911,7 +911,7 @@
             "isFavorite": false
         },
         {
-            "country": "Lao PDR",
+            "country": "Laos",
             "es_name": "Laos",
             "code": "LA",
             "flag": "https://www.countryflags.io/LA/flat/64.png",
@@ -1001,8 +1001,8 @@
             "isFavorite": false
         },
         {
-            "country": "Macao, SAR China",
-            "es_name": "Macao, SAR China",
+            "country": "Macao",
+            "es_name": "Macao",
             "code": "MO",
             "flag": "https://www.countryflags.io/MO/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MO.jpg",
@@ -1011,7 +1011,7 @@
             "isFavorite": false
         },
         {
-            "country": "Macedonia, Republic of",
+            "country": "North Macedonia",
             "es_name": "República de Macedonia",
             "code": "MK",
             "flag": "https://www.countryflags.io/MK/flat/64.png",
@@ -1112,7 +1112,7 @@
         },
         {
             "country": "Mexico",
-            "es_name": "México",
+            "es_name": "Mexico",
             "code": "MX",
             "flag": "https://www.countryflags.io/MX/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/MX.jpg",
@@ -1291,7 +1291,7 @@
             "isFavorite": false
         },
         {
-            "country": "Palestinian Territory",
+            "country": "Palestine",
             "es_name": "Territorios Palestinos",
             "code": "PS",
             "flag": "https://www.countryflags.io/PS/flat/64.png",
@@ -1395,13 +1395,13 @@
             "es_name": "Rumania",
             "code": "RO",
             "flag": "https://www.countryflags.io/RO/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RO.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/RO.png",
             "latitude": "45.943161",
             "longitude": "24.96676",
             "isFavorite": false
         },
         {
-            "country": "Russian Federation",
+            "country": "Russia",
             "es_name": "Federación de Rusia",
             "code": "RU",
             "flag": "https://www.countryflags.io/RU/flat/64.png",
@@ -1451,7 +1451,7 @@
             "isFavorite": false
         },
         {
-            "country": "Saint Vincent and Grenadines",
+            "country": "St. Vincent Grenadines",
             "es_name": "San Vicente y las Granadinas",
             "code": "VC",
             "flag": "https://www.countryflags.io/VC/flat/64.png",
@@ -1525,7 +1525,7 @@
             "es_name": "Sierra Leona",
             "code": "SL",
             "flag": "https://www.countryflags.io/SL/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SL.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/SL.jpeg",
             "latitude": "8.460555",
             "longitude": "-11.779889",
             "isFavorite": false
@@ -1671,7 +1671,7 @@
             "isFavorite": false
         },
         {
-            "country": "Syrian Arab Republic (Syria)",
+            "country": "Syria",
             "es_name": "República Árabe Siria​",
             "code": "SY",
             "flag": "https://www.countryflags.io/SY/flat/64.png",
@@ -1681,8 +1681,8 @@
             "isFavorite": false
         },
         {
-            "country": "Taiwan, Republic of China",
-            "es_name": "Taiwan, República de China",
+            "country": "Taiwan",
+            "es_name": "Taiwan",
             "code": "TW",
             "flag": "https://www.countryflags.io/TW/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TW.jpg",
@@ -1701,7 +1701,7 @@
             "isFavorite": false
         },
         {
-            "country": "Tanzania, United Republic of",
+            "country": "Tanzania",
             "es_name": "República Unida de Tanzania",
             "code": "TZ",
             "flag": "https://www.countryflags.io/TZ/flat/64.png",
@@ -1765,7 +1765,7 @@
             "es_name": "Turquía",
             "code": "TR",
             "flag": "https://www.countryflags.io/TR/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TR.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/TR.jpeg",
             "latitude": "38.963745",
             "longitude": "35.243322",
             "isFavorite": false
@@ -1785,7 +1785,7 @@
             "es_name": "Ucrania",
             "code": "UA",
             "flag": "https://www.countryflags.io/UA/flat/64.png",
-            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UA.jpg",
+            "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/UA.jpeg",
             "latitude": "48.379433",
             "longitude": "31.16558",
             "isFavorite": false
@@ -1801,7 +1801,7 @@
             "isFavorite": false
         },
         {
-            "country": "United Kingdom",
+            "country": "UK",
             "es_name": "Reino Unido",
             "code": "GB",
             "flag": "https://www.countryflags.io/GB/flat/64.png",
@@ -1811,10 +1811,10 @@
             "isFavorite": false
         },
         {
-            "country": "United States of America",
+            "country": "USA",
             "es_name": "Estados Unidos de America",
-            "code": "US",
-            "flag": "https://www.countryflags.io/US/flat/64.png",
+            "code": "USA",
+            "flag": "https://www.countryflags.io/USA/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/US.jpg",
             "latitude": "37.09024",
             "longitude": "-95.712891",
@@ -1841,8 +1841,8 @@
             "isFavorite": false
         },
         {
-            "country": "Venezuela (Bolivarian Republic)",
-            "es_name": "República Bolivariana de Venezuela",
+            "country": "Venezuela",
+            "es_name": "Venezuela",
             "code": "VE",
             "flag": "https://www.countryflags.io/VE/flat/64.png",
             "image": "https://s3.eu-west-3.amazonaws.com/countries.covid/VE.jpg",
@@ -1851,7 +1851,7 @@
             "isFavorite": false
         },
         {
-            "country": "Viet Nam",
+            "country": "Vietnam",
             "es_name": "Vietnam",
             "code": "VN",
             "flag": "https://www.countryflags.io/VN/flat/64.png",

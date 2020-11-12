@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,11 +19,17 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.lconder.covid.models.Country;
+import com.lconder.covid.models.CountryViewModel;
+
+import java.util.Collections;
+import java.util.List;
 
 public class MapFragment extends Fragment {
 
     MapView mMapView;
     private GoogleMap googleMap;
+    private CountryViewModel countryViewModel;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -32,26 +40,48 @@ public class MapFragment extends Fragment {
 
         try {
             MapsInitializer.initialize(getActivity().getApplicationContext());
+            initMap();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        mMapView.getMapAsync(new OnMapReadyCallback() {
+        countryViewModel = new ViewModelProvider(this).get(CountryViewModel.class);
+
+        countryViewModel.getFavorites().observe(getActivity(), new Observer<List<Country>>() {
             @Override
-            public void onMapReady(GoogleMap mMap) {
-                googleMap = mMap;
-
-                //googleMap.setMyLocationEnabled(true);
-
-                LatLng sydney = new LatLng(-34, 151);
-                googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker Title").snippet("Marker Description"));
-
-                CameraPosition cameraPosition = new CameraPosition.Builder().target(sydney).zoom(12).build();
-                googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+            public void onChanged(List<Country> countries) {
+                if(googleMap == null) {
+                    initMap();
+                }
+                loadMarkers(countries);
             }
         });
 
         return mView;
+    }
+
+    public void initMap() {
+        mMapView.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap mMap) {
+                googleMap = mMap;
+            }
+        });
+    }
+
+    public void loadMarkers(List<Country> countries) {
+
+        for (Country temp : countries) {
+            LatLng marker = new LatLng(temp.getLatitude(), temp.getLongitude());
+            googleMap.addMarker(
+                    new MarkerOptions()
+                            .position(marker)
+                            .title(temp.es_name)
+                    );
+            //CameraPosition cameraPosition = new CameraPosition.Builder().target(marker).zoom(12).build();
+            //googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+        }
+
     }
 
     @Override
