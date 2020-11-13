@@ -16,4 +16,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="not_info_available">Sin información disponible</string>
+    <string name="prisma">Prisma</string>
+    <string name="ip_key">ip</string>
+    <string name="defaultIP">127.0.0.1</string>
 </resources>

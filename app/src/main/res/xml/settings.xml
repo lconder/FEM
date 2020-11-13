@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/prisma">
+        <EditTextPreference
+            app:key="@string/ip_key"
+            app:title="IP Prisma"
+            app:summary="Proporciona la IP para conectar con Prisma"
+            android:defaultValue="@string/defaultIP"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
