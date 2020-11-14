@@ -3,6 +3,8 @@ package com.lconder.covid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
@@ -38,11 +40,14 @@ public class CountryActivity extends AppCompatActivity {
     DecimalFormat formatter;
     DataService service;
     RelativeLayout lighter;
+    SharedPreferences SP;
+    String url = "127.0.0.1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country);
+        SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
 
         code = getIntent().getStringExtra("CODE");
         name = getIntent().getStringExtra("NAME");
@@ -115,21 +120,24 @@ public class CountryActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        url = SP.getString(getString(R.string.ip_key), getString(R.string.defaultIP));
+    }
+
     private void sendRequestToLamp(RetroLamp.BodyRequest colorObject, final int color) {
 
         service = RetrofitClientInstance.getInstance().create(DataService.class);
+        url = SP.getString(getString(R.string.ip_key), getString(R.string.defaultIP));
         Call<RetroLamp> call = service.lamp(
-                "http://c3904f20dc15.ngrok.io/ring/color/", colorObject
-
+                url + "/ring/color/", colorObject
         );
-
         call.enqueue(new Callback<RetroLamp>() {
             @Override
             public void onResponse(Call<RetroLamp> call, Response<RetroLamp> response) {
                 lighter.setBackgroundColor(getResources().getColor(color));
-                Toast.makeText(getApplicationContext(), "PRISMA encendido!", Toast.LENGTH_SHORT).show();
             }
-
             @Override
             public void onFailure(Call<RetroLamp> call, Throwable t) {
                 Toast.makeText(getApplicationContext(), R.string.general_error + " al encender PRISMA", Toast.LENGTH_SHORT).show();
