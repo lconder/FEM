@@ -22,7 +22,6 @@ public class RetroCountry {
     @SerializedName("recovered")
     private Integer recovered;
 
-
     @SerializedName("todayDeaths")
     private Integer todayDeaths;
 

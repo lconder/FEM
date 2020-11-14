@@ -3,16 +3,19 @@ package com.lconder.covid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lconder.covid.models.DataService;
 import com.lconder.covid.models.RetrofitClientInstance;
 import com.lconder.covid.models.pojo.RetroCountry;
+import com.lconder.covid.models.pojo.RetroLamp;
 import com.squareup.picasso.Picasso;
 
 import java.text.DecimalFormat;
@@ -20,6 +23,7 @@ import java.text.DecimalFormat;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import retrofit2.Retrofit;
 
 public class CountryActivity extends AppCompatActivity {
 
@@ -32,6 +36,8 @@ public class CountryActivity extends AppCompatActivity {
     String code;
     String name;
     DecimalFormat formatter;
+    DataService service;
+    RelativeLayout lighter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,11 +55,13 @@ public class CountryActivity extends AppCompatActivity {
         tvRecovered = findViewById(R.id.recovered);
         tvDeaths = findViewById(R.id.deaths);
 
+        lighter = findViewById(R.id.lighter);
+
         progressDialog = new ProgressDialog(CountryActivity.this);
         progressDialog.setMessage("Loading....");
         progressDialog.show();
 
-        DataService service = RetrofitClientInstance.getInstance().create(DataService.class);
+        service = RetrofitClientInstance.getInstance().create(DataService.class);
         Call<RetroCountry> call = service.getById(name);
         call.enqueue(new Callback<RetroCountry>() {
             @Override
@@ -88,6 +96,12 @@ public class CountryActivity extends AppCompatActivity {
                 } else {
                     tvDeaths.setText(R.string.not_info_available);
                 }
+                if(response.body().getCasesPerOneMillion() != null) {
+                    sendRequestToLamp(
+                            getColorObject(response.body().getCasesPerOneMillion()),
+                            getColor(response.body().getCasesPerOneMillion())
+                    );
+                }
             }
             @Override
             public void onFailure(Call<RetroCountry> call, Throwable t) {
@@ -99,5 +113,54 @@ public class CountryActivity extends AppCompatActivity {
                 ).show();
             }
         });
+    }
+
+    private void sendRequestToLamp(RetroLamp.BodyRequest colorObject, final int color) {
+
+        service = RetrofitClientInstance.getInstance().create(DataService.class);
+        Call<RetroLamp> call = service.lamp(
+                "http://c3904f20dc15.ngrok.io/ring/color/", colorObject
+
+        );
+
+        call.enqueue(new Callback<RetroLamp>() {
+            @Override
+            public void onResponse(Call<RetroLamp> call, Response<RetroLamp> response) {
+                lighter.setBackgroundColor(getResources().getColor(color));
+                Toast.makeText(getApplicationContext(), "PRISMA encendido!", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onFailure(Call<RetroLamp> call, Throwable t) {
+                Toast.makeText(getApplicationContext(), R.string.general_error + " al encender PRISMA", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+    }
+
+    private RetroLamp.BodyRequest getColorObject(Integer casesPerMillion) {
+        int rate = casesPerMillion  * 100;
+        double ratePerMillion = rate / 1000000.00;
+        if(ratePerMillion < 0.5) {
+            return new RetroLamp.BodyRequest(0, 255, 0);
+        } else if(ratePerMillion > 0.5 && ratePerMillion < 1.5) {
+            return new RetroLamp.BodyRequest(255, 255, 0);
+        } else if(ratePerMillion > 1.5) {
+            return new RetroLamp.BodyRequest(255, 0, 0);
+        }
+        return new RetroLamp.BodyRequest(0, 255, 0);
+    }
+
+    private int getColor(Integer casesPerMillion) {
+        int rate = casesPerMillion  * 100;
+        double ratePerMillion = rate / 1000000.00;
+        if(ratePerMillion < 0.5) {
+            return R.color.green;
+        } else if(ratePerMillion > 0.5 && ratePerMillion < 1.5) {
+            return R.color.yellow;
+        } else if(ratePerMillion > 1.5) {
+            return R.color.red;
+        }
+        return R.color.green;
     }
 }
