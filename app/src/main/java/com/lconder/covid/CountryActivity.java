@@ -94,7 +94,7 @@ public class CountryActivity extends AppCompatActivity {
                 progressDialog.dismiss();
                 Toast.makeText(
                         CountryActivity.this,
-                        "Ha ocurrido un error",
+                        R.string.general_error,
                         Toast.LENGTH_SHORT
                 ).show();
             }

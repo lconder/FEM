@@ -1,7 +1,10 @@
 package com.lconder.covid;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -11,7 +14,12 @@ import androidx.appcompat.widget.Toolbar;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.lconder.covid.models.AppDatabase;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.lconder.covid.models.CountryViewModel;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -24,8 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authListener;
-    AppDatabase db;
-
+    DatabaseReference database;
+    String uid = null;
+    private CountryViewModel countryViewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +44,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        final SharedPreferences SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+        final SharedPreferences.Editor editor = SP.edit();
+        uid = SP.getString("uid", "");
+
         auth = FirebaseAuth.getInstance();
 
-        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        FirebaseAuth.getInstance().getCurrentUser();
+        database = FirebaseDatabase.getInstance().getReference().child(uid);
 
         authListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -46,9 +60,29 @@ public class MainActivity extends AppCompatActivity {
                 if(user==null) {
                     startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                     finish();
+                } else {
+                    editor.putString("uid", user.getUid());
+                    editor.apply();
+                    database = FirebaseDatabase.getInstance().getReference().child(user.getUid());
                 }
             }
         };
+
+        database.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(uid != null && uid.length() > 0) {
+                    String value = dataSnapshot.getValue(String.class);
+                    editor.putString("favorites", value);
+                    editor.apply();
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+                Log.w("FIREBASE_ERROR", "Failed to read value.", error.toException());
+            }
+        });
 
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
@@ -128,6 +162,4 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-
 }

@@ -1,7 +1,15 @@
 package com.lconder.covid.models;
 
 import android.content.Context;
-import android.util.Log;
+import android.content.SharedPreferences;
+
+import androidx.annotation.NonNull;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,6 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CountryData {
+
     public static Country[] populateCountries(Context context) {
         
         try {
@@ -33,8 +42,10 @@ public class CountryData {
             List<Country> countries = new ArrayList<>();
             JSONArray countriesJson = object.getJSONArray("countries");
 
+
             for (int i=0; i < countriesJson.length(); i++) {
                 JSONObject country = countriesJson.getJSONObject(i);
+
                 countries.add(
                         new Country(
                                 country.getString("country"),

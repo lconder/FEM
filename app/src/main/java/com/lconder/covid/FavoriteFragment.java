@@ -10,11 +10,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.lconder.covid.models.Country;
@@ -57,6 +57,9 @@ public class FavoriteFragment extends Fragment implements RecyclerViewClickListe
                 context.startActivity(intent);
             }
         });
+
+        downLoadFavorites();
+
         return mView;
     }
 
@@ -68,5 +71,22 @@ public class FavoriteFragment extends Fragment implements RecyclerViewClickListe
         intent.putExtra("CODE", country.getCode());
         intent.putExtra("NAME", country.getName());
         this.startActivity(intent);
+    }
+
+    public void downLoadFavorites() {
+        SharedPreferences SP = getActivity().getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = SP.edit();
+        boolean favorites_downloaded = SP.getBoolean("favs_downloaded", false);
+        String favorites = SP.getString("favorites", null);
+
+        if(!favorites_downloaded && favorites != null) {
+            String[] _favorites = favorites.split(",");
+            for(String code: _favorites){
+                countryViewModel.favorite(code, true);
+            }
+            editor.putBoolean("favs_downloaded", true);
+            editor.apply();
+            adapter.notifyDataSetChanged();
+        }
     }
 }

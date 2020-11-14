@@ -8,12 +8,16 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.lconder.covid.models.Country;
 import com.lconder.covid.models.CountryViewModel;
 import com.lconder.covid.views.RecyclerViewClickListener;
@@ -68,6 +72,9 @@ public class CountriesActivity extends AppCompatActivity implements RecyclerView
 
     @Override
     public void recyclerViewListClicked(int position) {
+        SharedPreferences SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+        final String uid = SP.getString("uid", "");
+        final String favorites = SP.getString("favorites", "");
         final Country country = adapter.getItem(position);
         new AlertDialog.Builder(this)
                 .setTitle(R.string.add_to_favorites)
@@ -76,6 +83,10 @@ public class CountriesActivity extends AppCompatActivity implements RecyclerView
                     public void onClick(DialogInterface dialog, int which) {
                         countryViewModel.favorite(country.getCode(), true);
                         Toast.makeText(getApplicationContext(), R.string.added_to_favorites, Toast.LENGTH_SHORT).show();
+                        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+                        database.child(uid).setValue(
+                                favorites+","+country.getCode()
+                        );
                         finish();
                     }
                 })
