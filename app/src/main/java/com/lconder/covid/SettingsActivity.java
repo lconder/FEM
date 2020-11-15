@@ -21,6 +21,7 @@ public class SettingsActivity extends AppCompatActivity {
                 .beginTransaction()
                 .replace(R.id.content, new SettingsFragment())
                 .commit();
+        checkValues();
     }
 
     public static class SettingsFragment extends PreferenceFragmentCompat
@@ -32,7 +33,7 @@ public class SettingsActivity extends AppCompatActivity {
     }
 
     public void checkValues() {
-        SharedPreferences SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+        SharedPreferences SP = getSharedPreferences(getString(R.string.project), Context.MODE_PRIVATE);
         SP.getString(getString(R.string.ip_key), getString(R.string.defaultIP));
     }
 }

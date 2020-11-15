@@ -90,13 +90,12 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         progressBar.setVisibility(View.GONE);
                         if (!task.isSuccessful()) {
-                            Log.i("ERROR_LOGIN", String.valueOf(task.getException()));
                             Toast.makeText(LoginActivity.this, getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
                         } else {
                             FirebaseUser currentFirebaseUser = FirebaseAuth.getInstance().getCurrentUser() ;
-                            SharedPreferences SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+                            SharedPreferences SP = getSharedPreferences(getString(R.string.project), Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor = SP.edit();
-                            editor.putString("uid", currentFirebaseUser.getUid());
+                            editor.putString(getString(R.string.uid), currentFirebaseUser.getUid());
                             editor.apply();
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(intent);

@@ -72,9 +72,9 @@ public class CountriesActivity extends AppCompatActivity implements RecyclerView
 
     @Override
     public void recyclerViewListClicked(int position) {
-        SharedPreferences SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
-        final String uid = SP.getString("uid", "");
-        final String favorites = SP.getString("favorites", "");
+        SharedPreferences SP = getSharedPreferences(getString(R.string.project), Context.MODE_PRIVATE);
+        final String uid = SP.getString(getString(R.string.uid), "");
+        final String favorites = SP.getString(getString(R.string.favorites), "");
         final Country country = adapter.getItem(position);
         new AlertDialog.Builder(this)
                 .setTitle(R.string.add_to_favorites)

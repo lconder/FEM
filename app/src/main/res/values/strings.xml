@@ -15,4 +15,8 @@
     <string name="prisma">Prisma</string>
     <string name="ip_key">ip</string>
     <string name="defaultIP">127.0.0.1</string>
+    <string name="uid">uid</string>
+    <string name="project">com.lconder.covid_preferences</string>
+    <string name="favorites">favorites</string>
+    <string name="favs_downloaded">favs_downloaded</string>
 </resources>

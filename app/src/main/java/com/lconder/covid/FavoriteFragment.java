@@ -74,17 +74,17 @@ public class FavoriteFragment extends Fragment implements RecyclerViewClickListe
     }
 
     public void downLoadFavorites() {
-        SharedPreferences SP = getActivity().getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+        SharedPreferences SP = getActivity().getSharedPreferences(getString(R.string.project), Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = SP.edit();
-        boolean favorites_downloaded = SP.getBoolean("favs_downloaded", false);
-        String favorites = SP.getString("favorites", null);
+        boolean favorites_downloaded = SP.getBoolean(getString(R.string.favs_downloaded), false);
+        String favorites = SP.getString(getString(R.string.favorites), null);
 
         if(!favorites_downloaded && favorites != null) {
             String[] _favorites = favorites.split(",");
             for(String code: _favorites){
                 countryViewModel.favorite(code, true);
             }
-            editor.putBoolean("favs_downloaded", true);
+            editor.putBoolean(getString(R.string.favs_downloaded), true);
             editor.apply();
             adapter.notifyDataSetChanged();
         }

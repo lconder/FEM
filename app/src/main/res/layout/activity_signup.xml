@@ -52,7 +52,8 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="Crear cuenta"
-            android:onClick="signUp"/>
+            android:onClick="signUp"
+            android:background="@color/colorPrimaryDark"/>
 
         <TextView android:id="@+id/link_login"
             android:layout_width="fill_parent"

@@ -47,7 +47,7 @@ public class CountryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_country);
-        SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+        SP = getSharedPreferences(getString(R.string.project), Context.MODE_PRIVATE);
 
         code = getIntent().getStringExtra("CODE");
         name = getIntent().getStringExtra("NAME");

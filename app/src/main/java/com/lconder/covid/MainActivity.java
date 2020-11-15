@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final SharedPreferences SP = getSharedPreferences("com.lconder.covid_preferences", Context.MODE_PRIVATE);
+        final SharedPreferences SP = getSharedPreferences(getString(R.string.project), Context.MODE_PRIVATE);
         final SharedPreferences.Editor editor = SP.edit();
-        uid = SP.getString("uid", "");
+        uid = SP.getString(getString(R.string.uid), "");
 
         auth = FirebaseAuth.getInstance();
 
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                     finish();
                 } else {
-                    editor.putString("uid", user.getUid());
+                    editor.putString(getString(R.string.uid), user.getUid());
                     editor.apply();
                     database = FirebaseDatabase.getInstance().getReference().child(user.getUid());
                 }
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if(uid != null && uid.length() > 0) {
                     String value = dataSnapshot.getValue(String.class);
-                    editor.putString("favorites", value);
+                    editor.putString(getString(R.string.favorites), value);
                     editor.apply();
                 }
             }
@@ -103,6 +103,27 @@ public class MainActivity extends AppCompatActivity {
         if (authListener != null) {
             auth.removeAuthStateListener(authListener);
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.settings) {
+            startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+            return true;
+        } else if(id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     public static class SectionsPagerAdapter extends FragmentPagerAdapter {
@@ -142,24 +163,5 @@ public class MainActivity extends AppCompatActivity {
             }
             return null;
         }
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        if (id == R.id.settings) {
-            startActivity(new Intent(MainActivity.this, SettingsActivity.class));
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }
